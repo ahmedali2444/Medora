@@ -15,8 +15,8 @@ namespace Medora.Services
         public async Task SendOtpAsync(
             string toEmail,
             string subject,
-            string message,
-            CancellationToken ct = default)
+            string message
+            )
         {
             using var client = new SmtpClient(_settings.Host, _settings.Port)
             {

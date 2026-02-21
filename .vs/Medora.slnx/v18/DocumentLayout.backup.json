@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Medora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,36 +11,48 @@
       "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\dtos\\resendotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\dtos\\resendotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\dtos\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\dtos\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\services\\iemailotpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\services\\iemailotpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\services\\smtpemailotpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\services\\smtpemailotpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\services\\iemailotpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\services\\iemailotpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\auth\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\auth\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\dtos\\forgotpasswordverifydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\dtos\\forgotpasswordverifydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\data\\models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\data\\models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\dtos\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\dtos\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\dtos\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\dtos\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\migrations\\20260220150237_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\migrations\\20260220150237_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\data\\models\\passwordresetotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\data\\models\\passwordresetotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|c:\\users\\user\\source\\repos\\medora\\medora\\data\\models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862CCB07-58BE-AE56-F805-7905C4C37E4B}|Medora\\Medora.csproj|solutionrelative:medora\\data\\models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,115 +75,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Medora\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Medora\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAAAGkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T11:33:54.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SmtpEmailOtpSender.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Services\\SmtpEmailOtpSender.cs",
+              "RelativeDocumentMoniker": "Medora\\Services\\SmtpEmailOtpSender.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Services\\SmtpEmailOtpSender.cs",
+              "RelativeToolTip": "Medora\\Services\\SmtpEmailOtpSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T11:29:17.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmailOtpSender.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Services\\IEmailOtpSender.cs",
+              "RelativeDocumentMoniker": "Medora\\Services\\IEmailOtpSender.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Services\\IEmailOtpSender.cs",
+              "RelativeToolTip": "Medora\\Services\\IEmailOtpSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T11:28:40.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "Medora\\DTOs\\ResetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\ResetPasswordDto.cs",
+              "RelativeToolTip": "Medora\\DTOs\\ResetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T11:27:44.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ForgotPasswordVerifyDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\ForgotPasswordVerifyDto.cs",
+              "RelativeDocumentMoniker": "Medora\\DTOs\\ForgotPasswordVerifyDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\ForgotPasswordVerifyDto.cs",
+              "RelativeToolTip": "Medora\\DTOs\\ForgotPasswordVerifyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T11:27:09.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForgotPasswordRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\ForgotPasswordRequestDto.cs",
+              "RelativeDocumentMoniker": "Medora\\DTOs\\ForgotPasswordRequestDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\ForgotPasswordRequestDto.cs",
+              "RelativeToolTip": "Medora\\DTOs\\ForgotPasswordRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T11:25:58.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VerifyOtpDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\VerifyOtpDto.cs",
+              "RelativeDocumentMoniker": "Medora\\DTOs\\VerifyOtpDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\VerifyOtpDto.cs",
+              "RelativeToolTip": "Medora\\DTOs\\VerifyOtpDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T11:25:36.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PasswordResetOtp.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Data\\Models\\PasswordResetOtp.cs",
+              "RelativeDocumentMoniker": "Medora\\Data\\Models\\PasswordResetOtp.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Data\\Models\\PasswordResetOtp.cs",
+              "RelativeToolTip": "Medora\\Data\\Models\\PasswordResetOtp.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T11:24:22.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Auth\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Medora\\Auth\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Auth\\JwtSettings.cs",
+              "RelativeToolTip": "Medora\\Auth\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T22:52:32.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\appsettings.json",
               "RelativeDocumentMoniker": "Medora\\appsettings.json",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\appsettings.json",
               "RelativeToolTip": "Medora\\appsettings.json",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowBUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-20T15:21:48.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResendOtpDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\ResendOtpDto.cs",
-              "RelativeDocumentMoniker": "Medora\\DTOs\\ResendOtpDto.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\ResendOtpDto.cs",
-              "RelativeToolTip": "Medora\\DTOs\\ResendOtpDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T15:21:02.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VerifyOtpDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\VerifyOtpDto.cs",
-              "RelativeDocumentMoniker": "Medora\\DTOs\\VerifyOtpDto.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\DTOs\\VerifyOtpDto.cs",
-              "RelativeToolTip": "Medora\\DTOs\\VerifyOtpDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T15:20:34.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SmtpEmailOtpSender.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Services\\SmtpEmailOtpSender.cs",
-              "RelativeDocumentMoniker": "Medora\\Services\\SmtpEmailOtpSender.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Services\\SmtpEmailOtpSender.cs",
-              "RelativeToolTip": "Medora\\Services\\SmtpEmailOtpSender.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T15:17:31.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEmailOtpSender.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Services\\IEmailOtpSender.cs",
-              "RelativeDocumentMoniker": "Medora\\Services\\IEmailOtpSender.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Services\\IEmailOtpSender.cs",
-              "RelativeToolTip": "Medora\\Services\\IEmailOtpSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T15:16:38.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmailSettings.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Auth\\EmailSettings.cs",
-              "RelativeDocumentMoniker": "Medora\\Auth\\EmailSettings.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Auth\\EmailSettings.cs",
-              "RelativeToolTip": "Medora\\Auth\\EmailSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T15:15:41.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Medora\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Medora\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAALQAAAAAAAAAAAAmwMgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T15:07:56.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20260220150237_v3.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Migrations\\20260220150237_v3.cs",
-              "RelativeDocumentMoniker": "Medora\\Migrations\\20260220150237_v3.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Migrations\\20260220150237_v3.cs",
-              "RelativeToolTip": "Medora\\Migrations\\20260220150237_v3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T15:02:37.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Medora\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Medora\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T15:01:26.526Z"
+              "WhenOpened": "2026-02-20T15:01:26.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "EmailOtp.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Data\\Models\\EmailOtp.cs",
               "RelativeDocumentMoniker": "Medora\\Data\\Models\\EmailOtp.cs",
@@ -187,15 +229,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Program.cs",
               "RelativeDocumentMoniker": "Medora\\Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Medora\\Medora\\Program.cs",
               "RelativeToolTip": "Medora\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T12:59:31.389Z"
+              "WhenOpened": "2026-02-20T12:59:31.389Z",
+              "EditorCaption": ""
             }
           ]
         },

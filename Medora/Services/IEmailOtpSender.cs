@@ -5,7 +5,6 @@
         Task SendOtpAsync(
             string toEmail,
             string subject,
-            string message,
-            CancellationToken ct = default);
+            string message);
     }
 }

@@ -99,7 +99,7 @@ namespace Medora.Controllers
             };
 
             if (!string.IsNullOrWhiteSpace(dto.FullName))
-                user.FullName = dto.FullName; // لو موجود عندك
+                user.FullName = dto.FullName;
 
             var create = await _userManager.CreateAsync(user, dto.Password);
             if (!create.Succeeded)
