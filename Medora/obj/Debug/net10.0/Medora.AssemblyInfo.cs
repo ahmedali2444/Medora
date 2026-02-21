@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Medora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8b731f72ace37d282d7ec76cca776eb63b8b13f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Medora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Medora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

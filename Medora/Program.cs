@@ -11,14 +11,11 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Conn")));
-
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("Email"));
 builder.Services.AddScoped<IEmailOtpSender, SmtpEmailOtpSender>();
-
 
 builder.Services
     .AddIdentityCore<AppUser>(opt =>
@@ -61,9 +58,7 @@ static async Task SeedRolesAsync(WebApplication app)
         if (!await roleManager.RoleExistsAsync(role))
             await roleManager.CreateAsync(new IdentityRole(role));
 }
-
 await SeedRolesAsync(app);
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -73,5 +68,4 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
-
 app.Run();

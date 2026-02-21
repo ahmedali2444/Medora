@@ -2,6 +2,10 @@
 {
     public interface IEmailOtpSender
     {
-        Task SendOtpAsync(string toEmail, string code, CancellationToken ct = default);
+        Task SendOtpAsync(
+            string toEmail,
+            string subject,
+            string message,
+            CancellationToken ct = default);
     }
 }

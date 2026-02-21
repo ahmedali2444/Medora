@@ -15,6 +15,8 @@ namespace Medora.Data
         public DbSet<DoctorSpecialty> DoctorSpecialties => Set<DoctorSpecialty>();
 
         public DbSet<EmailOtp> EmailOtps => Set<EmailOtp>();
+        public DbSet<PasswordResetOtp> PasswordResetOtps => Set<PasswordResetOtp>();
+
         public DbSet<PharmacyProfile> PharmacyProfiles => Set<PharmacyProfile>();
         public DbSet<PharmacyVerification> PharmacyVerifications => Set<PharmacyVerification>();
 
