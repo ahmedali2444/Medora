@@ -1,0 +1,10 @@
+# Medora AI service runtime dependencies (pinned to the versions used in dev).
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+starlette==0.46.2
+pydantic==2.13.4
+openai==1.82.0
+pandas==2.2.3
+numpy==2.4.6
+python-dotenv==1.0.1
+httpx==0.28.1

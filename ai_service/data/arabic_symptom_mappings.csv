@@ -1,0 +1,25 @@
+input_term,canonical_symptom_name,language,dialect
+سخونية,Fever,ar,egyptian
+حرارة,Fever,ar,msa
+وجع دماغ,Headache,ar,egyptian
+صداع,Headache,ar,msa
+كحة,Cough,ar,egyptian
+سعال,Cough,ar,msa
+رشح,Nasal Congestion,ar,egyptian
+زكام,Common Cold,ar,msa
+وجع بطن,Abdominal Pain,ar,egyptian
+ألم بطن,Abdominal Pain,ar,msa
+نهجان,Shortness Of Breath,ar,egyptian
+ضيق تنفس,Shortness Of Breath,ar,msa
+دوخة,Dizziness,ar,egyptian
+دوار,Dizziness,ar,msa
+ترجيع,Vomiting,ar,egyptian
+قيء,Vomiting,ar,msa
+غثيان,Nausea,ar,msa
+إسهال,Diarrhea,ar,msa
+اسهال,Diarrhea,ar,egyptian
+حرقان بول,Painful Urination,ar,egyptian
+وجع صدر,Chest Pain,ar,egyptian
+ألم صدر,Chest Pain,ar,msa
+هرش,Itching,ar,egyptian
+حكة,Itching,ar,msa

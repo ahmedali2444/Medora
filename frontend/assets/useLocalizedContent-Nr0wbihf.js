@@ -1,0 +1,1 @@
+import{u as o,r as a}from"./index-B5T7Rub2.js";import{d as r,e as l,g as n}from"./localization-C1Xla96E.js";function u(){const{lang:t,t:s}=o();return a.useMemo(()=>({lang:t,isRtl:s.dir==="rtl",text:(e,i="")=>n(e,t,i),list:e=>l(e,t),entity:(e,i)=>r(e,i,t)}),[t,s.dir])}export{u};

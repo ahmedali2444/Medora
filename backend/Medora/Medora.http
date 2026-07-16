@@ -1,0 +1,6 @@
+@Medora_HostAddress = http://localhost:5117
+
+GET {{Medora_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

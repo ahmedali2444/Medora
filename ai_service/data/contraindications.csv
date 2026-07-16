@@ -1,0 +1,1732 @@
+drug_id,drug_name,condition,reason,source
+drug_000001,7t Gummy Es Chewable Tablets,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000002,A G Profen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000003,A Phedrin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000004,Abacavir,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000005,Abacavir Dolutegravir Lamivudine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000006,Abacavir Lamivudine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000007,Abacavir Lamivudine Zidovudine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000010,Abatuss Dmx,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000011,Abenol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000012,Abilify,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000013,Abilify Maintena,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000014,Abilify Mycite,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000017,Absorica,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000017,Absorica,pregnancy,Pregnancy category X,drugs_com
+drug_000018,Absorica Ld,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000018,Absorica Ld,pregnancy,Pregnancy category X,drugs_com
+drug_000020,Acarbose,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000024,Accupril,pregnancy,Pregnancy category D,drugs_com
+drug_000025,Accuretic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000025,Accuretic,pregnancy,Pregnancy category D,drugs_com
+drug_000026,Accutane,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000026,Accutane,pregnancy,Pregnancy category X,drugs_com
+drug_000027,Acebutolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000028,Acephen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000029,Acetaminophen Aspirin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000030,Acetaminophen Aspirin Caffeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000031,Acetaminophen Aspirin Caffeine Salicylamide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000032,Acetaminophen Benzhydrocodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000033,Acetaminophen Caffeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000034,Acetaminophen Caffeine Dihydrocodeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000035,Acetaminophen Chlorpheniramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000036,Acetaminophen Chlorpheniramine Dextromethorphan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000037,Acetaminophen Chlorpheniramine Dextromethorphan Guaifenesin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000038,Acetaminophen Chlorpheniramine Dextromethorphan Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000039,Acetaminophen Chlorpheniramine Dextromethorphan Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000040,Acetaminophen Chlorpheniramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000041,Acetaminophen Codeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000042,Acetaminophen Dexbrompheniramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000043,Acetaminophen Dextromethorphan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000044,Acetaminophen Dextromethorphan Diphenhydramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000045,Acetaminophen Dextromethorphan Doxylamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000046,Acetaminophen Dextromethorphan Doxylamine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000047,Acetaminophen Dextromethorphan Doxylamine Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000048,Acetaminophen Dextromethorphan Guaifenesin Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000049,Acetaminophen Dextromethorphan Guaifenesin Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000050,Acetaminophen Dextromethorphan Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000051,Acetaminophen Dextromethorphan Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000052,Acetaminophen Dextromethorphan Triprolidine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000053,Acetaminophen Diphenhydramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000054,Acetaminophen Diphenhydramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000055,Acetaminophen Hydrocodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000056,Acetaminophen Ibuprofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000057,Acetaminophen Oxycodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000058,Acetaminophen Pheniramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000059,Acetaminophen Phenyltoloxamine Salicylamide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000060,Acetaminophen Tramadol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000061,Acetohydroxamic Acid,pregnancy,Pregnancy category X,drugs_com
+drug_000063,Achromycin V,pregnancy,Pregnancy category D,drugs_com
+drug_000069,Acitretin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000069,Acitretin,pregnancy,Pregnancy category X,drugs_com
+drug_000070,Aclasta,pregnancy,Pregnancy category D,drugs_com
+drug_000081,Acrivastine Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000082,Actamin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000085,Acticlate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000085,Acticlate,pregnancy,Pregnancy category D,drugs_com
+drug_000086,Actifed Cold And Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000087,Actimol Children S,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000088,Actimol Infant,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000089,Actiprofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000090,Actiq,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000094,Actoplus Met,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000095,Actos,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000102,Adasuve,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000103,Addaprin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000104,Adderall,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000105,Adderall Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000106,Adhansia Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000107,Adipex P,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000107,Adipex P,pregnancy,Pregnancy category X,drugs_com
+drug_000109,Adlyxin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000110,Admelog,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000111,Adoxa,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000111,Adoxa,pregnancy,Pregnancy category D,drugs_com
+drug_000112,Adoxa Ck,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000112,Adoxa Ck,pregnancy,Pregnancy category D,drugs_com
+drug_000113,Adoxa Pak,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000113,Adoxa Pak,pregnancy,Pregnancy category D,drugs_com
+drug_000114,Adoxa Tt,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000114,Adoxa Tt,pregnancy,Pregnancy category D,drugs_com
+drug_000117,Advil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000118,Advil Allergy Sinus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000118,Advil Allergy Sinus,pregnancy,Pregnancy category D,drugs_com
+drug_000119,Advil Children S,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000120,Advil Children S Allergy Sinus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000120,Advil Children S Allergy Sinus,pregnancy,Pregnancy category D,drugs_com
+drug_000121,Advil Congestion Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000121,Advil Congestion Relief,pregnancy,Pregnancy category D,drugs_com
+drug_000122,Advil Infant S Concentrated Drops,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000123,Advil Liqui Gels,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000124,Advil Migraine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000125,Advil Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000126,Advil Sinus Congestion And Pain,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000126,Advil Sinus Congestion And Pain,pregnancy,Pregnancy category D,drugs_com
+drug_000127,Adzenys Er,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000128,Adzenys Xr Odt,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000130,Aflaxen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000131,Afrezza,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000136,Ala Hist Ir,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000137,Ala Hist Pe,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000141,Ala Tet,pregnancy,Pregnancy category D,drugs_com
+drug_000142,Alahist D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000146,Albiglutide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000149,Aldactazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000150,Aldactone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000151,Aldoril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000155,Aleve,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000156,Aleve Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000157,Alfentanil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000160,Aliskiren,pregnancy,Pregnancy category D,drugs_com
+drug_000161,Aliskiren Hydrochlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000161,Aliskiren Hydrochlorothiazide,pregnancy,Pregnancy category D,drugs_com
+drug_000163,Alka Seltzer Plus Cold Formula Sparkling Original Effervescent Tablets,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000164,Alka Seltzer Plus D Multi Symptom Sinus And Cold Liquid Gels,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000165,Alka Seltzer Wake Up Call,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000166,All Day Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000167,All Day Allergy Children S,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000168,All Day Allergy D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000169,All Day Pain Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000170,All Day Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000171,Allan Tannate Pediatric,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000178,Aller Chlor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000180,Aller Tec,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000181,Aller Tec Children S,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000182,Allerest Maximum Strength,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000183,Allerest Pe,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000184,Allerfrim,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000186,Allergy Multi Symptom,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000187,Allergy Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000189,Allergy Relief D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000191,Allermax,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000192,Alli,pregnancy,Pregnancy category X,drugs_com
+drug_000199,Alogliptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000200,Alogliptin Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000201,Alogliptin Pioglitazone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000205,Alprazolam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000205,Alprazolam,pregnancy,Pregnancy category D,drugs_com
+drug_000206,Alprazolam Intensol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000206,Alprazolam Intensol,pregnancy,Pregnancy category D,drugs_com
+drug_000207,Alprostadil,pregnancy,Pregnancy category X,drugs_com
+drug_000210,Altace,pregnancy,Pregnancy category D,drugs_com
+drug_000212,Altenol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000214,Altocor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000214,Altocor,pregnancy,Pregnancy category X,drugs_com
+drug_000215,Altoprev,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000215,Altoprev,pregnancy,Pregnancy category X,drugs_com
+drug_000224,Amaryl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000225,Ambien,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000226,Ambien Cr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000227,Ambifed Cd,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000231,Amikacin,pregnancy,Pregnancy category D,drugs_com
+drug_000232,Amikin,pregnancy,Pregnancy category D,drugs_com
+drug_000233,Amikin Pediatric,pregnancy,Pregnancy category D,drugs_com
+drug_000234,Amiloride,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000235,Amiloride Hydrochlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000236,Aminofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000239,Amitriptyline,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000240,Amitriptyline Chlordiazepoxide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000241,Amitriptyline Perphenazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000244,Amlodipine Atorvastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000244,Amlodipine Atorvastatin,pregnancy,Pregnancy category X,drugs_com
+drug_000245,Amlodipine Benazepril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000245,Amlodipine Benazepril,pregnancy,Pregnancy category D,drugs_com
+drug_000247,Amlodipine Hydrochlorothiazide Olmesartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000247,Amlodipine Hydrochlorothiazide Olmesartan,pregnancy,Pregnancy category D,drugs_com
+drug_000248,Amlodipine Hydrochlorothiazide Valsartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000248,Amlodipine Hydrochlorothiazide Valsartan,pregnancy,Pregnancy category D,drugs_com
+drug_000249,Amlodipine Olmesartan,pregnancy,Pregnancy category D,drugs_com
+drug_000250,Amlodipine Perindopril,pregnancy,Pregnancy category D,drugs_com
+drug_000251,Amlodipine Telmisartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000251,Amlodipine Telmisartan,pregnancy,Pregnancy category D,drugs_com
+drug_000252,Amlodipine Valsartan,pregnancy,Pregnancy category D,drugs_com
+drug_000255,Amnesteem,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000255,Amnesteem,pregnancy,Pregnancy category X,drugs_com
+drug_000256,Amobarbital,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000256,Amobarbital,pregnancy,Pregnancy category D,drugs_com
+drug_000258,Amoxapine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000262,Amphetamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000263,Amphetamine Dextroamphetamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000268,Amzeeq,pregnancy,Pregnancy category D,drugs_com
+drug_000269,Anacin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000270,Anacin Advanced Headache Formula,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000271,Anacin Aspirin Free,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000275,Anaprox,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000276,Anaprox Ds,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000282,Anjeso,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000287,Anti Diarrheal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000288,Antinaus 50,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000289,Apadaz,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000292,Aphedrid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000293,Apidra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000294,Aplenzin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000296,Apra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000299,Aprodine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000300,Aptensio Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000301,Aptiom,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000307,Aquazide H,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000308,Arava,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000308,Arava,pregnancy,Pregnancy category X,drugs_com
+drug_000309,Arazlo,pregnancy,Pregnancy category X,drugs_com
+drug_000310,Arbinoxa,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000314,Aripiprazole,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000315,Aristada,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000316,Aristada Initio,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000323,Arthritis Pain,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000324,Arthritis Pain Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000325,Arthrotec,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000325,Arthrotec,pregnancy,Pregnancy category X,drugs_com
+drug_000328,Ascriptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000329,Asenapine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000333,Aspergum,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000334,Aspir Low,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000335,Aspirin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000336,Aspirin Butalbital Caffeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000337,Aspirin Caffeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000338,Aspirin Caffeine Dihydrocodeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000339,Aspirin Carisoprodol Codeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000340,Aspirin Chlorpheniramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000341,Aspirin Oxycodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000342,Aspiritab,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000343,Aspirtab,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000345,Astelin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000346,Astepro,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000347,Astepro Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000349,Astramorph Pf,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000350,Atacand,pregnancy,Pregnancy category D,drugs_com
+drug_000351,Atacand Hct,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000351,Atacand Hct,pregnancy,Pregnancy category D,drugs_com
+drug_000352,Atasol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000356,Atenolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000356,Atenolol,pregnancy,Pregnancy category D,drugs_com
+drug_000357,Atenolol Chlorthalidone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000357,Atenolol Chlorthalidone,pregnancy,Pregnancy category D,drugs_com
+drug_000358,Ativan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000358,Ativan,pregnancy,Pregnancy category D,drugs_com
+drug_000360,Atorvastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000360,Atorvastatin,pregnancy,Pregnancy category X,drugs_com
+drug_000361,Atorvastatin Ezetimibe,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000361,Atorvastatin Ezetimibe,pregnancy,Pregnancy category X,drugs_com
+drug_000363,Atripla,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000363,Atripla,pregnancy,Pregnancy category D,drugs_com
+drug_000364,Atropine Difenoxin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000365,Atropine Diphenoxylate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000368,Atti Plex P,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000368,Atti Plex P,pregnancy,Pregnancy category X,drugs_com
+drug_000372,Aurophen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000373,Avalide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000373,Avalide,pregnancy,Pregnancy category D,drugs_com
+drug_000374,Avanafil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000375,Avandia,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000376,Avapro,pregnancy,Pregnancy category D,drugs_com
+drug_000387,Aventyl Hydrochloride,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000389,Avidoxy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000389,Avidoxy,pregnancy,Pregnancy category D,drugs_com
+drug_000396,Azasan,pregnancy,Pregnancy category D,drugs_com
+drug_000397,Azathioprine,pregnancy,Pregnancy category D,drugs_com
+drug_000399,Azelastine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000400,Azelastine Fluticasone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000402,Azilsartan Medoxomil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000402,Azilsartan Medoxomil,pregnancy,Pregnancy category D,drugs_com
+drug_000403,Azilsartan Medoxomil Chlorthalidone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000403,Azilsartan Medoxomil Chlorthalidone,pregnancy,Pregnancy category D,drugs_com
+drug_000406,Azor,pregnancy,Pregnancy category D,drugs_com
+drug_000411,Azuphen Mb,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000414,Back And Body Extra Strength,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000415,Backaid Inflammatory Pain Formula,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000417,Bactrim,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000417,Bactrim,pregnancy,Pregnancy category D,drugs_com
+drug_000418,Bactrim Ds,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000418,Bactrim Ds,pregnancy,Pregnancy category D,drugs_com
+drug_000423,Banophen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000425,Basaglar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000427,Bayer Aspirin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000428,Bayer Aspirin Extra Strength Plus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000429,Bayer Aspirin Regimen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000430,Bayer Back And Body,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000431,Bayer Extra Strength Back And Body,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000432,Bazedoxifene Conjugated Estrogens,pregnancy,Pregnancy category X,drugs_com
+drug_000433,Bc Arthritis,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000434,Bc Fast Pain Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000438,Belbuca,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000439,Belladonna,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000440,Belsomra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000441,Benadryl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000442,Benadryl Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000443,Benadryl Allergy Plus Cold,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000444,Benadryl Allergy Plus Congestion,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000445,Benadryl Allergy Plus Sinus Headache,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000446,Benazepril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000446,Benazepril,pregnancy,Pregnancy category D,drugs_com
+drug_000447,Benazepril Hydrochlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000447,Benazepril Hydrochlorothiazide,pregnancy,Pregnancy category D,drugs_com
+drug_000448,Bendroflumethiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000449,Bendroflumethiazide Nadolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000454,Benicar,pregnancy,Pregnancy category D,drugs_com
+drug_000455,Benicar Hct,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000455,Benicar Hct,pregnancy,Pregnancy category D,drugs_com
+drug_000474,Benzoic Acid Hyoscyamine Methenamine Methylene Blue Phenyl Salicylate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000482,Benzphetamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000482,Benzphetamine,pregnancy,Pregnancy category X,drugs_com
+drug_000488,Betaxolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000490,Bevespi Aerosphere,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000491,Beyaz,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000491,Beyaz,pregnancy,Pregnancy category X,drugs_com
+drug_000504,Biotussin Dac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000511,Bisoprolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000512,Bisoprolol Hydrochlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000518,Bontril Pdm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000522,Bp Allergy Jr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000527,Brevibloc,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000530,Brexpiprazole,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000532,Breztri Aerosphere,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000533,Brivaracetam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000534,Briviact,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000536,Brodspec,pregnancy,Pregnancy category D,drugs_com
+drug_000537,Brohist D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000538,Bromaline,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000539,Bromatan Plus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000540,Bromax,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000541,Bromocriptine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000542,Brompheniramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000543,Brompheniramine Codeine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000544,Brompheniramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000545,Brompheniramine Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000547,Brotapp,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000549,Budeprion Sr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000552,Budesonide Formoterol Glycopyrrolate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000554,Buprenex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000555,Buprenorphine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000556,Bupropion,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000557,Bupropion Naltrexone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000557,Bupropion Naltrexone,pregnancy,Pregnancy category X,drugs_com
+drug_000558,Buspar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000559,Buspirone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000560,Butorphanol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000561,Butrans,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000562,Bydureon,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000563,Bydureon Bcise,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000564,Byetta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000565,Bystolic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000566,C P M,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000567,C Tanna 12,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000571,Caduet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000571,Caduet,pregnancy,Pregnancy category X,drugs_com
+drug_000572,Cafergot,pregnancy,Pregnancy category X,drugs_com
+drug_000574,Caffeine Ergotamine,pregnancy,Pregnancy category X,drugs_com
+drug_000577,Calan Sr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000595,Caldolor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000598,Cambia,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000598,Cambia,pregnancy,Pregnancy category D,drugs_com
+drug_000603,Canagliflozin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000604,Canagliflozin Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000605,Candesartan,pregnancy,Pregnancy category D,drugs_com
+drug_000606,Candesartan Hydrochlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000606,Candesartan Hydrochlorothiazide,pregnancy,Pregnancy category D,drugs_com
+drug_000608,Caplyta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000609,Capron Dm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000610,Capron Dmt,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000618,Captopril,pregnancy,Pregnancy category D,drugs_com
+drug_000619,Captopril Hydrochlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000619,Captopril Hydrochlorothiazide,pregnancy,Pregnancy category D,drugs_com
+drug_000626,Carbamazepine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000626,Carbamazepine,pregnancy,Pregnancy category D,drugs_com
+drug_000627,Carbetapentane Chlorpheniramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000628,Carbinoxamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000629,Carboplatin,pregnancy,Pregnancy category D,drugs_com
+drug_000630,Carboxine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000634,Cardura,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000635,Cariprazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000636,Carospir,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000638,Carvedilol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000641,Castor Oil,pregnancy,Pregnancy category X,drugs_com
+drug_000642,Cataflam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000642,Cataflam,pregnancy,Pregnancy category D,drugs_com
+drug_000643,Catapres,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000644,Catapres Tts,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000645,Caverject,pregnancy,Pregnancy category X,drugs_com
+drug_000646,Caverject Impulse,pregnancy,Pregnancy category X,drugs_com
+drug_000654,Cefotan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000656,Cefotetan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000669,Celecoxib Tramadol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000671,Celexa,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000672,Celontin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000673,Cenobamate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000679,Cetafen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000680,Cetirizine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000681,Cetirizine Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000682,Cheratussin Dac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000685,Children S Motrin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000686,Children S Silapap,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000687,Children S Triacting,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000688,Children S Triacting Night Time,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000689,Children S Tylenol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000690,Childrens Tylenol Cold Plus Cough,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000691,Chlo Amine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000692,Chlo Hist,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000693,Chlophedianol Dexbrompheniramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000694,Chlophedianol Dexchlorpheniramine Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000695,Chlophedianol Pyrilamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000696,Chlor Mal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000697,Chlor Trimeton,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000698,Chloral Hydrate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000699,Chlorambucil,pregnancy,Pregnancy category D,drugs_com
+drug_000700,Chlorcyclizine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000701,Chlordiazepoxide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000702,Chlorex A,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000703,Chlorex A 12,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000704,Chlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000705,Chlorpheniramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000706,Chlorpheniramine Codeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000707,Chlorpheniramine Codeine Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000708,Chlorpheniramine Hydrocodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000709,Chlorpheniramine Ibuprofen Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000710,Chlorpheniramine Ibuprofen Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000710,Chlorpheniramine Ibuprofen Pseudoephedrine,pregnancy,Pregnancy category D,drugs_com
+drug_000711,Chlorpheniramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000712,Chlorpheniramine Phenylephrine Phenyltoloxamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000713,Chlorpheniramine Phenylephrine Pyrilamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000714,Chlorpheniramine Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000715,Chlorpromazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000716,Chlortan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000717,Chlortan D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000718,Chlorthalidone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000719,Choline Magnesium Trisalicylate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000722,Chorionic Gonadotropin Hcg,pregnancy,Pregnancy category X,drugs_com
+drug_000724,Cialis,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000731,Cimetidine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000739,Citalopram,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000745,Claravis,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000745,Claravis,pregnancy,Pregnancy category X,drugs_com
+drug_000761,Clear Cough Pm Multi Symptom,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000764,Cleeravue M,pregnancy,Pregnancy category D,drugs_com
+drug_000765,Clemastine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000771,Clevidipine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000772,Cleviprex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000783,Clinoril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000791,Clomipramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000792,Clonazepam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000792,Clonazepam,pregnancy,Pregnancy category D,drugs_com
+drug_000793,Clonidine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000795,Clorazepate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000796,Clozapine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000797,Clozaril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000798,Co Trimoxazole,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000798,Co Trimoxazole,pregnancy,Pregnancy category D,drugs_com
+drug_000807,Codar Ar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000808,Codeine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000809,Codeine Guaifenesin Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000810,Codeine Phenylephrine Triprolidine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000811,Codimal Dm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000812,Coditussin Dac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000815,Cold Multi Symptom Nighttime,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000820,Complete Allergy Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000822,Compoz Nighttime Sleep Aid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000823,Compro,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000824,Comtrex Cold And Cough,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000825,Comtrex Cold And Cough Maximum Strength,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000826,Comtrex Cold And Flu Maximum Strength Tablet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000827,Comtrex Nighttime Cold And Cough,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000828,Comtrex Severe Cold And Sinus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000829,Conal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000830,Concerta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000831,Conex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000832,Conjugated Estrogens,pregnancy,Pregnancy category X,drugs_com
+drug_000833,Conjugated Estrogens Medroxyprogesterone,pregnancy,Pregnancy category X,drugs_com
+drug_000834,Conjupri,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000836,Contac Cold Flu Night Cooling Relief Liquid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000837,Contac Cold Flu Night Formula,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000838,Contrave,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000838,Contrave,pregnancy,Pregnancy category X,drugs_com
+drug_000839,Conzip,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000841,Cope,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000845,Coreg,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000846,Coreg Cr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000847,Corgard,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000848,Coricidin Hbp Cold And Flu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000849,Coricidin Hbp Maximum Strength Flu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000850,Coricidin Hbp Nighttime Multi Symptom Cold,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000862,Corzide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000863,Corzide 40 5,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000864,Corzide 80 5,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000867,Cosmegen,pregnancy,Pregnancy category D,drugs_com
+drug_000868,Cotempla Xr Odt,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000869,Covaryx,pregnancy,Pregnancy category X,drugs_com
+drug_000870,Covaryx Hs,pregnancy,Pregnancy category X,drugs_com
+drug_000871,Cozaar,pregnancy,Pregnancy category D,drugs_com
+drug_000873,Crestor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000873,Crestor,pregnancy,Pregnancy category X,drugs_com
+drug_000877,Cuprimine,pregnancy,Pregnancy category D,drugs_com
+drug_000880,Cyclobenzaprine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000882,Cyclophosphamide,pregnancy,Pregnancy category D,drugs_com
+drug_000883,Cycloset,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000886,Cymbalta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000887,Cyproheptadine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000889,D H E 45,pregnancy,Pregnancy category X,drugs_com
+drug_000890,D Penamine,pregnancy,Pregnancy category D,drugs_com
+drug_000891,Dactinomycin,pregnancy,Pregnancy category D,drugs_com
+drug_000893,Dallergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000894,Dallergy Drops,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000896,Dapagliflozin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000897,Dapagliflozin Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000898,Dapagliflozin Saxagliptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000900,Daridorexant,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000903,Daypro,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000904,Daytrana,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000905,Dayvigo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000906,Dazidox,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000908,Decon A,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000909,Deconamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000910,Decorel Forte Plus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000913,Delsym Cough And Sore Throat,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000914,Delsym Cough Cold Day Time,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000915,Delsym Cough Cold Night Time,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000916,Delsym Night Time Multi Symptom,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000917,Deltuss Dmx,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000919,Demadex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000920,Demerol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000922,Denosumab,pregnancy,Pregnancy category X,drugs_com
+drug_000924,Depakote,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000924,Depakote,pregnancy,Pregnancy category D,drugs_com
+drug_000925,Depakote Er,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000925,Depakote Er,pregnancy,Pregnancy category D,drugs_com
+drug_000926,Depakote Sprinkles,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000926,Depakote Sprinkles,pregnancy,Pregnancy category D,drugs_com
+drug_000927,Depen,pregnancy,Pregnancy category D,drugs_com
+drug_000948,Desipramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000955,Desoxyn,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000957,Desvenlafaxine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000958,Desyrel,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000959,Desyrel Dividose,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000960,Detrol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000961,Detrol La,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000964,Dexbrompheniramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000965,Dexbrompheniramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000966,Dexbrompheniramine Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000967,Dexchlorpheniramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000968,Dexchlorpheniramine Dextromethorphan Pseudoephedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000969,Dexchlorpheniramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000970,Dexedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000975,Dextroamphetamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000976,Dextromethorphan Diphenhydramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000977,Dextromethorphan Phenylephrine Pyrilamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000978,Dextromethorphan Phenylephrine Triprolidine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000979,Dextromethorphan Promethazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000980,Dextromethorphan Pyrilamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000984,Diabeta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000985,Diabetic Tussin Night Time Formula,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000986,Diamode,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000987,Diastat,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000987,Diastat,pregnancy,Pregnancy category D,drugs_com
+drug_000988,Diastat Acudial,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000988,Diastat Acudial,pregnancy,Pregnancy category D,drugs_com
+drug_000989,Diastat Pediatric,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000989,Diastat Pediatric,pregnancy,Pregnancy category D,drugs_com
+drug_000990,Diazepam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000990,Diazepam,pregnancy,Pregnancy category D,drugs_com
+drug_000991,Diazepam Intensol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000991,Diazepam Intensol,pregnancy,Pregnancy category D,drugs_com
+drug_000992,Dicel,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000993,Diclofenac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000993,Diclofenac,pregnancy,Pregnancy category D,drugs_com
+drug_000995,Diclofenac Misoprostol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_000995,Diclofenac Misoprostol,pregnancy,Pregnancy category X,drugs_com
+drug_001004,Dicopanol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001005,Diethylpropion,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001010,Dihydroergotamine,pregnancy,Pregnancy category X,drugs_com
+drug_001012,Dilantin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001012,Dilantin,pregnancy,Pregnancy category D,drugs_com
+drug_001014,Dilaudid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001019,Dimenhydrinate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001020,Dimetane Decongestant,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001021,Dimetapp Children S Cold And Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001023,Diovan,pregnancy,Pregnancy category D,drugs_com
+drug_001024,Diovan Hct,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001024,Diovan Hct,pregnancy,Pregnancy category D,drugs_com
+drug_001025,Diphedryl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001026,Diphen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001027,Diphenhydramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001028,Diphenhydramine Ibuprofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001029,Diphenhydramine Magnesium Salicylate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001030,Diphenhydramine Naproxen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001031,Diphenhydramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001033,Ditropan Xl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001034,Diuril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001035,Diuril Sodium,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001036,Divalproex Sodium,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001036,Divalproex Sodium,pregnancy,Pregnancy category D,drugs_com
+drug_001037,Dixaphedrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001039,Doan S Pills,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001040,Doans Pills Extra Strength,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001041,Doans Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001047,Dologen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001048,Dolono,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001054,Doral,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001057,Doryx,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001057,Doryx,pregnancy,Pregnancy category D,drugs_com
+drug_001058,Doryx Mpc,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001058,Doryx Mpc,pregnancy,Pregnancy category D,drugs_com
+drug_001061,Doxazosin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001062,Doxepin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001063,Doxorubicin,pregnancy,Pregnancy category D,drugs_com
+drug_001064,Doxy 100,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001064,Doxy 100,pregnancy,Pregnancy category D,drugs_com
+drug_001065,Doxycycline,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001065,Doxycycline,pregnancy,Pregnancy category D,drugs_com
+drug_001066,Doxylamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001067,Doxylamine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001068,Dristan Cold Multi Symptom Formula,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001072,Drixoral Cold And Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001073,Drospirenone Ethinyl Estradiol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001073,Drospirenone Ethinyl Estradiol,pregnancy,Pregnancy category X,drugs_com
+drug_001074,Drospirenone Ethinyl Estradiol Levomefolate Calcium,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001074,Drospirenone Ethinyl Estradiol Levomefolate Calcium,pregnancy,Pregnancy category X,drugs_com
+drug_001075,Dsuvia,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001079,Duavee,pregnancy,Pregnancy category X,drugs_com
+drug_001080,Duetact,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001081,Duexis,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001082,Dulaglutide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001087,Duloxetine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001092,Duraclon,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001093,Duraflu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001094,Duragesic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001095,Duramorph,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001096,Duramorph Pf,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001098,Duraxin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001101,Dutoprol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001102,Dvorah,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001104,Dyanavel Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001105,Dyazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001108,Dymista,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001109,Dynacin,pregnancy,Pregnancy category D,drugs_com
+drug_001112,Dytan D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001113,Dytan Dm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001114,Dytuss,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001117,E E S Granules,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001120,Easprin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001121,Ec Naprosyn,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001122,Ecotrin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001123,Ecpirin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001124,Ed A Hist,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001125,Ed Chlor Ped Jr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001126,Ed Chlorped,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001127,Ed Chlorped D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001128,Ed Chlortan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001129,Ed Flex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001130,Edarbi,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001130,Edarbi,pregnancy,Pregnancy category D,drugs_com
+drug_001131,Edarbyclor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001131,Edarbyclor,pregnancy,Pregnancy category D,drugs_com
+drug_001132,Edex,pregnancy,Pregnancy category X,drugs_com
+drug_001133,Edluar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001135,Eemt,pregnancy,Pregnancy category X,drugs_com
+drug_001136,Eemt Hs,pregnancy,Pregnancy category X,drugs_com
+drug_001137,Efavirenz,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001137,Efavirenz,pregnancy,Pregnancy category D,drugs_com
+drug_001138,Efavirenz Emtricitabine Tenofovir,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001138,Efavirenz Emtricitabine Tenofovir,pregnancy,Pregnancy category D,drugs_com
+drug_001139,Efavirenz Lamivudine Tenofovir,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001140,Effexor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001141,Effexor Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001144,Elepsia Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001154,Empagliflozin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001155,Empagliflozin Linagliptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001156,Empagliflozin Linagliptin Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001157,Empagliflozin Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001158,Emsam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001167,Enalapril,pregnancy,Pregnancy category D,drugs_com
+drug_001168,Enalapril Hydrochlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001168,Enalapril Hydrochlorothiazide,pregnancy,Pregnancy category D,drugs_com
+drug_001170,Endodan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001176,Entercote,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001180,Epaned,pregnancy,Pregnancy category D,drugs_com
+drug_001187,Eplerenone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001188,Eprontia,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001188,Eprontia,pregnancy,Pregnancy category D,drugs_com
+drug_001189,Eprosartan,pregnancy,Pregnancy category D,drugs_com
+drug_001191,Epzicom,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001193,Equaline Sleep Aid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001195,Equate Sleep Aid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001196,Equetro,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001196,Equetro,pregnancy,Pregnancy category D,drugs_com
+drug_001199,Ergomar,pregnancy,Pregnancy category X,drugs_com
+drug_001200,Ergotamine,pregnancy,Pregnancy category X,drugs_com
+drug_001202,Ertugliflozin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001203,Ertugliflozin Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001204,Ertugliflozin Sitagliptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001206,Ery Tab,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001207,Eryc,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001209,Eryped,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001210,Erythrocin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001211,Erythrocin Lactobionate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001212,Erythromycin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001213,Escitalopram,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001214,Esidrix,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001215,Esketamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001216,Eslicarbazepine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001217,Esmolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001219,Esomeprazole Naproxen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001221,Estarylla,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001221,Estarylla,pregnancy,Pregnancy category X,drugs_com
+drug_001222,Estazolam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001222,Estazolam,pregnancy,Pregnancy category X,drugs_com
+drug_001223,Esterified Estrogens,pregnancy,Pregnancy category X,drugs_com
+drug_001224,Esterified Estrogens Methyltestosterone,pregnancy,Pregnancy category X,drugs_com
+drug_001226,Estropipate,pregnancy,Pregnancy category X,drugs_com
+drug_001227,Eszopiclone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001229,Eth Oxydose,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001230,Ethinyl Estradiol Norethindrone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001230,Ethinyl Estradiol Norethindrone,pregnancy,Pregnancy category X,drugs_com
+drug_001231,Ethinyl Estradiol Norgestimate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001231,Ethinyl Estradiol Norgestimate,pregnancy,Pregnancy category X,drugs_com
+drug_001232,Ethosuximide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001234,Etodolac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001235,Etopophos,pregnancy,Pregnancy category D,drugs_com
+drug_001236,Etoposide,pregnancy,Pregnancy category D,drugs_com
+drug_001241,Evekeo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001242,Evekeo Odt,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001244,Evista,pregnancy,Pregnancy category X,drugs_com
+drug_001249,Excedrin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001250,Excedrin Migraine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001251,Excedrin Quick Tab,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001252,Excedrin Tension Headache,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001254,Exenatide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001255,Exforge,pregnancy,Pregnancy category D,drugs_com
+drug_001256,Exforge Hct,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001256,Exforge Hct,pregnancy,Pregnancy category D,drugs_com
+drug_001260,Ezallor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001260,Ezallor,pregnancy,Pregnancy category X,drugs_com
+drug_001262,Ezetimibe Rosuvastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001263,Ezetimibe Simvastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001263,Ezetimibe Simvastatin,pregnancy,Pregnancy category X,drugs_com
+drug_001264,Fabior,pregnancy,Pregnancy category X,drugs_com
+drug_001267,Famotidine Ibuprofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001268,Fanapt,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001269,Farxiga,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001272,Fazaclo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001273,Febrol Solution,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001275,Feldene,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001277,Fendique Er,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001279,Fenfluramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001281,Fenoprofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001281,Fenoprofen,pregnancy,Pregnancy category D,drugs_com
+drug_001282,Fenortho,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001282,Fenortho,pregnancy,Pregnancy category D,drugs_com
+drug_001284,Fentanyl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001285,Fentanyl Transdermal System,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001286,Fentora,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001289,Fetzima,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001290,Feverall,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001293,Fiasp,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001299,Fiorinal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001301,Flagyl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001302,Flagyl 375,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001303,Flagyl Iv,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001304,Flanax Pain Reliever,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001305,Flavoxate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001313,Flolipid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001313,Flolipid,pregnancy,Pregnancy category X,drugs_com
+drug_001320,Flu And Severe Cold And Cough Daytime Powder,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001321,Fludarabine,pregnancy,Pregnancy category D,drugs_com
+drug_001326,Fluorouracil,pregnancy,Pregnancy category D,drugs_com
+drug_001327,Fluoxetine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001328,Fluoxetine Olanzapine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001330,Flurazepam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001331,Flurbiprofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001332,Flutabs,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001336,Fluvastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001336,Fluvastatin,pregnancy,Pregnancy category X,drugs_com
+drug_001337,Fluvoxamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001340,Forfivo Xl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001341,Formoterol Glycopyrrolate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001343,Fortabs,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001349,Fosinopril,pregnancy,Pregnancy category D,drugs_com
+drug_001350,Fosinopril Hydrochlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001350,Fosinopril Hydrochlorothiazide,pregnancy,Pregnancy category D,drugs_com
+drug_001362,Furosemide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001364,Fycompa,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001365,Gabapentin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001366,Gabitril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001368,Ganaxolone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001369,Garamycin,pregnancy,Pregnancy category D,drugs_com
+drug_001374,Gelnique,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001379,Genace,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001380,Genacote,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001381,Genapap,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001382,Genebs,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001384,Genpril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001385,Gentamicin,pregnancy,Pregnancy category D,drugs_com
+drug_001387,Geodon,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001389,Gianvi,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001389,Gianvi,pregnancy,Pregnancy category X,drugs_com
+drug_001390,Glimepiride,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001391,Glimepiride Pioglitazone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001392,Glipizide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001393,Glipizide Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001394,Glipizide Xl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001396,Glucotrol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001397,Glucotrol Xl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001398,Glucovance,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001399,Glumetza,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001400,Glyburide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001401,Glyburide Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001404,Glycron,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001406,Glynase,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001407,Glynase Prestab,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001408,Glyset,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001409,Glyxambi,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001410,Gnp Cold Relief Plus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001413,Gonitro,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001414,Goody S Extra Strength,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001415,Goody S Extra Strength Headache Powders,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001416,Goody S Headache Powders,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001419,Guaifen Dac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001423,Guanabenz,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001424,Guanfacine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001432,Halcion,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001432,Halcion,pregnancy,Pregnancy category X,drugs_com
+drug_001433,Halfprin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001438,Headache Relief Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001445,Histafed,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001446,Histex Ac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001447,Histex Ct,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001448,Histex Dm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001449,Histex Ie,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001450,Histex Pd,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001451,Histex Pe,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001454,Humalog,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001455,Humalog Kwikpen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001456,Humalog Mix 50 50,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001457,Humalog Mix 50 50 Kwikpen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001458,Humalog Mix 75 25,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001459,Humalog Mix 75 25 Kwikpen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001461,Humulin 50 50,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001462,Humulin 70 30,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001463,Humulin 70 30 Pen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001464,Humulin N,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001465,Humulin N Pen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001466,Humulin R,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001467,Humulin R U 500 Concentrated,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001468,Humulin R U 500 Kwikpen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001471,Hycamtin,pregnancy,Pregnancy category D,drugs_com
+drug_001475,Hydrochlorothiazide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001476,Hydrochlorothiazide Irbesartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001476,Hydrochlorothiazide Irbesartan,pregnancy,Pregnancy category D,drugs_com
+drug_001477,Hydrochlorothiazide Lisinopril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001477,Hydrochlorothiazide Lisinopril,pregnancy,Pregnancy category D,drugs_com
+drug_001478,Hydrochlorothiazide Losartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001478,Hydrochlorothiazide Losartan,pregnancy,Pregnancy category D,drugs_com
+drug_001479,Hydrochlorothiazide Methyldopa,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001480,Hydrochlorothiazide Metoprolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001481,Hydrochlorothiazide Moexipril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001481,Hydrochlorothiazide Moexipril,pregnancy,Pregnancy category D,drugs_com
+drug_001482,Hydrochlorothiazide Olmesartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001482,Hydrochlorothiazide Olmesartan,pregnancy,Pregnancy category D,drugs_com
+drug_001483,Hydrochlorothiazide Quinapril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001483,Hydrochlorothiazide Quinapril,pregnancy,Pregnancy category D,drugs_com
+drug_001484,Hydrochlorothiazide Spironolactone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001485,Hydrochlorothiazide Telmisartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001485,Hydrochlorothiazide Telmisartan,pregnancy,Pregnancy category D,drugs_com
+drug_001486,Hydrochlorothiazide Triamterene,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001487,Hydrochlorothiazide Valsartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001487,Hydrochlorothiazide Valsartan,pregnancy,Pregnancy category D,drugs_com
+drug_001489,Hydrocodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001490,Hydrocodone Ibuprofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001494,Hydromorphone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001496,Hydroxyurea,pregnancy,Pregnancy category D,drugs_com
+drug_001497,Hydroxyzine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001500,Hyolev Mb,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001501,Hyophen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001502,Hyoscyamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001503,Hyoscyamine Methenamine Methylene Blue Phenyl Salicylate Sodium Biphosphate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001504,Hyoscyamine Methenamine Methylene Blue Sodium Biphosphate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001506,Hysingla Er,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001507,Hytrin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001509,Hyzaar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001509,Hyzaar,pregnancy,Pregnancy category D,drugs_com
+drug_001512,Ibu 200,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001513,Ibuprofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001514,Ibuprofen Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001514,Ibuprofen Phenylephrine,pregnancy,Pregnancy category D,drugs_com
+drug_001515,Ibuprofen Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001520,Ifex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001520,Ifex,pregnancy,Pregnancy category D,drugs_com
+drug_001521,Ifosfamide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001521,Ifosfamide,pregnancy,Pregnancy category D,drugs_com
+drug_001522,Iloperidone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001525,Imipramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001529,Imodium,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001530,Imodium A D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001532,Imuran,pregnancy,Pregnancy category D,drugs_com
+drug_001536,Indapamide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001537,Inderal La,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001538,Indocin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001539,Indocin Sr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001540,Indomethacin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001541,Infant S Tylenol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001544,Infumorph,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001545,Innopran Xl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001549,Inspra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001550,Insulin Aspart,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001551,Insulin Aspart Insulin Aspart Protamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001552,Insulin Degludec,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001553,Insulin Degludec Liraglutide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001554,Insulin Detemir,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001555,Insulin Glargine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001556,Insulin Glargine Lixisenatide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001557,Insulin Glulisine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001558,Insulin Inhalation Rapid Acting,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001559,Insulin Isophane,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001560,Insulin Isophane Insulin Regular,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001561,Insulin Lispro,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001562,Insulin Lispro Insulin Lispro Protamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001563,Insulin Regular,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001567,Intuniv,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001569,Invega,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001570,Invega Hafyera,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001571,Invega Sustenna,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001572,Invega Trinza,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001574,Invokamet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001575,Invokamet Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001576,Invokana,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001581,Irbesartan,pregnancy,Pregnancy category D,drugs_com
+drug_001582,Irenka,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001585,Isocarboxazid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001591,Isotretinoin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001591,Isotretinoin,pregnancy,Pregnancy category X,drugs_com
+drug_001595,Ivermectin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001598,Janumet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001599,Janumet Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001600,Januvia,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001601,Jardiance,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001602,Jasmiel,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001602,Jasmiel,pregnancy,Pregnancy category X,drugs_com
+drug_001603,Jentadueto,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001604,Jentadueto Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001605,Jornay Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001606,Jr Tylenol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001609,Juxtapid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001609,Juxtapid,pregnancy,Pregnancy category X,drugs_com
+drug_001610,Kadian,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001615,Kapspargo Sprinkle,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001616,Kapvay,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001617,Karbinal Er,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001619,Kazano,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001624,Keppra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001625,Keppra Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001627,Ketamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001628,Ketoprofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001629,Ketorolac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001632,Kombiglyze Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001637,Labetalol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001638,Lacosamide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001640,Lamictal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001641,Lamictal Cd,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001642,Lamictal Odt,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001647,Lamotrigine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001650,Lantus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001651,Lantus Solostar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001653,Lasix,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001655,Latuda,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001658,Leflunomide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001658,Leflunomide,pregnancy,Pregnancy category X,drugs_com
+drug_001659,Legatrin Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001660,Lemborexant,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001662,Lescol Xl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001662,Lescol Xl,pregnancy,Pregnancy category X,drugs_com
+drug_001663,Leukeran,pregnancy,Pregnancy category D,drugs_com
+drug_001665,Levamlodipine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001667,Levemir,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001668,Levetiracetam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001670,Levocetirizine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001672,Levomilnacipran,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001673,Levorphanol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001676,Lexapro,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001688,Linagliptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001689,Linagliptin Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001692,Lipitor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001692,Lipitor,pregnancy,Pregnancy category X,drugs_com
+drug_001695,Liraglutide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001696,Lisdexamfetamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001697,Lisinopril,pregnancy,Pregnancy category D,drugs_com
+drug_001698,Lithium,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001698,Lithium,pregnancy,Pregnancy category D,drugs_com
+drug_001699,Lithobid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001699,Lithobid,pregnancy,Pregnancy category D,drugs_com
+drug_001700,Lithostat,pregnancy,Pregnancy category X,drugs_com
+drug_001701,Livalo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001701,Livalo,pregnancy,Pregnancy category X,drugs_com
+drug_001702,Lixisenatide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001705,Lo Zumandimine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001705,Lo Zumandimine,pregnancy,Pregnancy category X,drugs_com
+drug_001708,Lodrane D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001709,Lofena,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001709,Lofena,pregnancy,Pregnancy category D,drugs_com
+drug_001710,Lohist D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001712,Lomaira,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001712,Lomaira,pregnancy,Pregnancy category X,drugs_com
+drug_001713,Lomitapide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001713,Lomitapide,pregnancy,Pregnancy category X,drugs_com
+drug_001714,Lomotil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001715,Loperamide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001718,Lopressor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001719,Lopressor Hct,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001724,Lorazepam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001724,Lorazepam,pregnancy,Pregnancy category D,drugs_com
+drug_001725,Lorazepam Intensol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001725,Lorazepam Intensol,pregnancy,Pregnancy category D,drugs_com
+drug_001726,Loreev Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001726,Loreev Xr,pregnancy,Pregnancy category D,drugs_com
+drug_001727,Lortuss Ex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001728,Loryna,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001728,Loryna,pregnancy,Pregnancy category X,drugs_com
+drug_001729,Losartan,pregnancy,Pregnancy category D,drugs_com
+drug_001730,Lotensin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001730,Lotensin,pregnancy,Pregnancy category D,drugs_com
+drug_001731,Lotensin Hct,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001731,Lotensin Hct,pregnancy,Pregnancy category D,drugs_com
+drug_001732,Lotrel,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001732,Lotrel,pregnancy,Pregnancy category D,drugs_com
+drug_001733,Lovastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001733,Lovastatin,pregnancy,Pregnancy category X,drugs_com
+drug_001735,Loxapine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001737,Lumateperone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001738,Lunesta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001739,Lurasidone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001740,Lybalvi,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001742,Lypqozet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001742,Lypqozet,pregnancy,Pregnancy category X,drugs_com
+drug_001743,Lyumjev,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001744,M End Pe,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001745,M Pap,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001752,Magnesium Salicylate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001753,Mapap,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001754,Mapap Arthritis Pain,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001756,Marplan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001762,Maxzide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001763,Maxzide 25,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001765,Meclofenamate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001769,Medicidin D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001776,Mefenamic Acid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001777,Meloxicam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001779,Menest,pregnancy,Pregnancy category X,drugs_com
+drug_001783,Meperidine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001784,Meperitab,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001786,Meprobamate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001787,Mercaptopurine,pregnancy,Pregnancy category D,drugs_com
+drug_001790,Metadate Cd,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001793,Metformin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001794,Metformin Pioglitazone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001795,Metformin Saxagliptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001796,Metformin Sitagliptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001797,Methadone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001798,Methadone Diskets,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001799,Methadose,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001800,Methamphetamine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001803,Methotrexate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001803,Methotrexate,pregnancy,Pregnancy category X,drugs_com
+drug_001804,Methoxsalen,pregnancy,Pregnancy category D,drugs_com
+drug_001805,Methsuximide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001810,Methylin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001811,Methylin Er,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001812,Methylphenidate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001815,Metoclopramide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001816,Metolazone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001817,Metoprolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001818,Metronidazole,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001822,Micardis,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001822,Micardis,pregnancy,Pregnancy category D,drugs_com
+drug_001823,Micardis Hct,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001823,Micardis Hct,pregnancy,Pregnancy category D,drugs_com
+drug_001824,Microzide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001825,Midamor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001826,Midazolam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001826,Midazolam,pregnancy,Pregnancy category D,drugs_com
+drug_001827,Midol Ib,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001828,Midol Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001829,Migergot,pregnancy,Pregnancy category X,drugs_com
+drug_001830,Miglitol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001831,Migraine Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001832,Migranal,pregnancy,Pregnancy category X,drugs_com
+drug_001837,Minipress,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001838,Minitran,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001839,Minocin,pregnancy,Pregnancy category D,drugs_com
+drug_001840,Minocycline,pregnancy,Pregnancy category D,drugs_com
+drug_001841,Minolira,pregnancy,Pregnancy category D,drugs_com
+drug_001847,Mirtazapine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001848,Mitigo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001850,Mobic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001853,Moexipril,pregnancy,Pregnancy category D,drugs_com
+drug_001856,Mometasone Olopatadine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001857,Mono Linyah,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001857,Mono Linyah,pregnancy,Pregnancy category X,drugs_com
+drug_001858,Monodox,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001858,Monodox,pregnancy,Pregnancy category D,drugs_com
+drug_001861,Morgidox,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001861,Morgidox,pregnancy,Pregnancy category D,drugs_com
+drug_001862,Morphine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001863,Motofen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001864,Motrin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001865,Motrin Childrens,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001866,Motrin Ib,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001867,Motrin Junior Strength,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001868,Motrin Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001869,Mounjaro,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001872,Ms Contin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001873,Mst,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001876,Mucinex Children S Cold Cough And Sore Throat,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001877,Mucinex Fast Max Night Time Cold And Flu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001878,Mucinex Fast Max Severe Cold,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001879,Mucinex Fast Max Severe Congestion And Cold,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001882,Mucinex Nightshift Cold And Flu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001883,Muse,pregnancy,Pregnancy category X,drugs_com
+drug_001884,Mycophenolate Mofetil,pregnancy,Pregnancy category D,drugs_com
+drug_001885,Mydayis,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001891,Myorisan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001891,Myorisan,pregnancy,Pregnancy category X,drugs_com
+drug_001893,Mysoline,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001895,Myxredlin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001896,Nabumetone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001897,Nadolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001899,Nalbuphine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001900,Nalex A,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001901,Nalex A 12,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001902,Nalfon,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001902,Nalfon,pregnancy,Pregnancy category D,drugs_com
+drug_001903,Nalocet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001904,Naloxone Pentazocine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001908,Naprelan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001909,Naprosyn,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001910,Naproxen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001911,Naproxen Sumatriptan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001913,Nardil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001917,Nateglinide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001920,Nayzilam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001920,Nayzilam,pregnancy,Pregnancy category D,drugs_com
+drug_001921,Nebivolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001922,Nebivolol Valsartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001923,Nefazodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001925,Neomycin,pregnancy,Pregnancy category D,drugs_com
+drug_001927,Nesina,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001935,Nexiclon Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001939,Niacin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001940,Niacor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001941,Niaspan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001944,Nighttime Sleepaid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001945,Nikki,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001945,Nikki,pregnancy,Pregnancy category X,drugs_com
+drug_001946,Nimodipine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001947,Ninjacof,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001950,Nitro Bid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001951,Nitro Dur,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001952,Nitro Td Patch A,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001953,Nitro Time,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001955,Nitroglycerin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001956,Nitrolingual Pumpspray,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001957,Nitromist,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001958,Nitrostat,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001960,Nohist Lq,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001962,Norel Ad,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001964,Norpramin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001965,Nortemp Children S,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001966,Nortriptyline,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001969,Norwich Aspirin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001971,Novahistine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001972,Novolin 70 30,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001973,Novolin N,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001974,Novolin R,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001975,Novolog,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001976,Novolog Flexpen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001977,Novolog Mix 70 30,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001978,Novolog Mix 70 30 Flexpen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001979,Novolog Penfill,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001983,Nucynta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001984,Nucynta Er,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001986,Nuprin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001987,Nuprin Backache,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001990,Nytol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001991,Nytol Quickcaps,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001992,Ocella,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001992,Ocella,pregnancy,Pregnancy category X,drugs_com
+drug_001996,Ofirmev,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_001998,Ogen,pregnancy,Pregnancy category X,drugs_com
+drug_002000,Olanzapine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002001,Olanzapine Samidorphan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002002,Oliceridine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002003,Olinvyk,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002004,Olmesartan,pregnancy,Pregnancy category D,drugs_com
+drug_002007,Olopatadine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002018,Onglyza,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002019,Onset Forte,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002021,Opium,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002026,Oraxyl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002026,Oraxyl,pregnancy,Pregnancy category D,drugs_com
+drug_002028,Orlistat,pregnancy,Pregnancy category X,drugs_com
+drug_002029,Orphenadrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002036,Oseni,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002040,Otrexup,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002040,Otrexup,pregnancy,Pregnancy category X,drugs_com
+drug_002042,Oxaprozin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002043,Oxaydo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002044,Oxazepam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002045,Oxcarbazepine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002047,Oxsoralen Ultra,pregnancy,Pregnancy category D,drugs_com
+drug_002048,Oxtellar Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002051,Oxybutynin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002052,Oxycodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002053,Oxycontin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002054,Oxydose,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002055,Oxyfast,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002056,Oxymorphone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002057,Oxytrol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002059,Ozempic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002060,P A C,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002061,P A C Analgesic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002063,Painaid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002064,Paliperidone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002065,Pamelor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002066,Panatuss Ped,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002072,Paracetamol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002073,Parnate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002074,Paroxetine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002074,Paroxetine,pregnancy,Pregnancy category D,drugs_com
+drug_002075,Patanase,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002076,Paxil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002076,Paxil,pregnancy,Pregnancy category D,drugs_com
+drug_002077,Paxil Cr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002077,Paxil Cr,pregnancy,Pregnancy category D,drugs_com
+drug_002079,Pce Dispertab,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002085,Penicillamine,pregnancy,Pregnancy category D,drugs_com
+drug_002094,Pentobarbital,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002094,Pentobarbital,pregnancy,Pregnancy category D,drugs_com
+drug_002103,Perampanel,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002104,Percocet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002105,Percodan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002106,Percogesic Extra Strength,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002107,Percogesic Original Strength,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002108,Perindopril,pregnancy,Pregnancy category D,drugs_com
+drug_002110,Perphenazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002112,Perseris,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002113,Pexeva,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002113,Pexeva,pregnancy,Pregnancy category D,drugs_com
+drug_002118,Pharbetol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002119,Phena Plus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002120,Phenadoz,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002121,Phenagil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002122,Phendimetrazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002123,Phenelzine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002124,Phenergan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002125,Pheniramine Phenylephrine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002126,Phenobarbital,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002126,Phenobarbital,pregnancy,Pregnancy category D,drugs_com
+drug_002127,Phentermine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002127,Phentermine,pregnancy,Pregnancy category X,drugs_com
+drug_002128,Phentermine Topiramate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002128,Phentermine Topiramate,pregnancy,Pregnancy category X,drugs_com
+drug_002129,Phenylephrine Promethazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002130,Phenylephrine Triprolidine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002131,Phenytek,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002131,Phenytek,pregnancy,Pregnancy category D,drugs_com
+drug_002132,Phenytoin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002132,Phenytoin,pregnancy,Pregnancy category D,drugs_com
+drug_002133,Phenytoin Sodium,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002133,Phenytoin Sodium,pregnancy,Pregnancy category D,drugs_com
+drug_002136,Phosphasal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002139,Pindolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002141,Pioglitazone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002144,Piroxicam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002145,Pitavastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002145,Pitavastatin,pregnancy,Pregnancy category X,drugs_com
+drug_002150,Polmon,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002151,Poly Hist Forte,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002152,Poly Tussin Ac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002158,Pramlintide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002162,Prandin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002163,Pravastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002163,Pravastatin,pregnancy,Pregnancy category X,drugs_com
+drug_002165,Prazosin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002170,Pregabalin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002171,Pregnyl,pregnancy,Pregnancy category X,drugs_com
+drug_002172,Premarin,pregnancy,Pregnancy category X,drugs_com
+drug_002173,Premarin Intravenous,pregnancy,Pregnancy category X,drugs_com
+drug_002174,Premphase,pregnancy,Pregnancy category X,drugs_com
+drug_002175,Prempro,pregnancy,Pregnancy category X,drugs_com
+drug_002176,Prestalia,pregnancy,Pregnancy category D,drugs_com
+drug_002182,Prialt,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002187,Primidone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002188,Primlev,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002190,Prinivil,pregnancy,Pregnancy category D,drugs_com
+drug_002191,Pristiq,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002195,Procentra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002196,Prochlorperazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002200,Prolate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002201,Prolia,pregnancy,Pregnancy category X,drugs_com
+drug_002202,Promethazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002203,Promethazine Dm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002204,Promethegan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002206,Propranolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002207,Proprinal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002210,Protriptyline,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002211,Prozac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002212,Prudoxin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002214,Pseudoephedrine Triprolidine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002219,Qbrelis,pregnancy,Pregnancy category D,drugs_com
+drug_002220,Qdolo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002223,Qsymia,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002223,Qsymia,pregnancy,Pregnancy category X,drugs_com
+drug_002224,Qtern,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002225,Quazepam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002226,Qudexy Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002226,Qudexy Xr,pregnancy,Pregnancy category D,drugs_com
+drug_002227,Quetiapine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002228,Quillichew Er,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002229,Quillivant Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002230,Quinapril,pregnancy,Pregnancy category D,drugs_com
+drug_002233,Quviviq,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002239,Raloxifene,pregnancy,Pregnancy category X,drugs_com
+drug_002241,Ramelteon,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002242,Ramipril,pregnancy,Pregnancy category D,drugs_com
+drug_002245,Rasuvo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002245,Rasuvo,pregnancy,Pregnancy category X,drugs_com
+drug_002250,Reclast,pregnancy,Pregnancy category D,drugs_com
+drug_002252,Reditrex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002252,Reditrex,pregnancy,Pregnancy category X,drugs_com
+drug_002255,Reglan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002258,Relafen Ds,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002261,Relexxii,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002262,Relion Novolin 70 30,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002265,Remdesivir,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002266,Remeron,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002267,Remeron Soltab,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002270,Repaglinide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002276,Restoril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002276,Restoril,pregnancy,Pregnancy category X,drugs_com
+drug_002282,Rexulti,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002285,Rezvoglar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002295,Riomet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002298,Risperdal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002299,Risperdal Consta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002300,Risperidone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002301,Ritalin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002302,Ritalin La,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002309,Robitussin Peak Cold Daytime Cold Flu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002310,Robitussin Peak Cold Nighttime Cold Flu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002311,Robitussin Peak Cold Nighttime Nasal Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002317,Rosiglitazone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002318,Rosuvastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002318,Rosuvastatin,pregnancy,Pregnancy category X,drugs_com
+drug_002319,Roszet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002321,Roweepra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002322,Roweepra Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002323,Roxicodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002324,Roxybond,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002325,Rozerem,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002326,Ru Hist D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002327,Ru Hist Forte,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002330,Ryaltris,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002331,Rybelsus,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002332,Ryclora,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002333,Rymed,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002334,Rynex Pe,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002335,Ryvent,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002336,Sabril,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002347,Salsalate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002350,Saphris,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002368,Saxagliptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002369,Saxenda,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002372,Scot Tussin Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002376,Secuado,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002378,Seglentis,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002379,Segluromet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002380,Selegiline,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002382,Semaglutide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002383,Semglee,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002384,Semprex D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002385,Septra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002385,Septra,pregnancy,Pregnancy category D,drugs_com
+drug_002386,Septra Ds,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002386,Septra Ds,pregnancy,Pregnancy category D,drugs_com
+drug_002388,Seroquel,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002389,Seroquel Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002390,Sertraline,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002393,Siladryl Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002395,Silapap Childrens,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002396,Sildenafil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002397,Silenor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002399,Simply Sleep,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002402,Simvastatin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002402,Simvastatin,pregnancy,Pregnancy category X,drugs_com
+drug_002404,Sinus And Allergy Pe,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002405,Sitagliptin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002407,Sleep Aid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002408,Sleepinal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002409,Slo Niacin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002416,Soliqua,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002417,Solodyn,pregnancy,Pregnancy category D,drugs_com
+drug_002424,Sominex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002425,Sonata,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002428,Soriatane,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002428,Soriatane,pregnancy,Pregnancy category X,drugs_com
+drug_002430,Sotret,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002430,Sotret,pregnancy,Pregnancy category X,drugs_com
+drug_002433,Spironolactone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002435,Spravato,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002436,Spritam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002437,Sprix,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002441,Starlix,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002442,Staxyn,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002443,Steglatro,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002444,Steglujan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002446,Stendra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002456,Sudafed Pe Cold And Cough,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002457,Sudafed Pe Head Congestion Pain,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002457,Sudafed Pe Head Congestion Pain,pregnancy,Pregnancy category D,drugs_com
+drug_002458,Sudafed Pe Pressure Pain Cold,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002459,Sudafed Pe Pressure Pain Cough,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002460,Sudafed Pe Severe Cold,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002461,Sudafed Pe Sinus And Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002462,Sudogest Sinus And Allergy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002463,Sufentanil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002467,Sulfamethoxazole Trimethoprim,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002467,Sulfamethoxazole Trimethoprim,pregnancy,Pregnancy category D,drugs_com
+drug_002469,Sulfatrim Pediatric,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002469,Sulfatrim Pediatric,pregnancy,Pregnancy category D,drugs_com
+drug_002472,Sulindac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002484,Surmontil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002485,Sustiva,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002485,Sustiva,pregnancy,Pregnancy category D,drugs_com
+drug_002486,Sutan Dm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002487,Suvorexant,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002488,Syeda,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002488,Syeda,pregnancy,Pregnancy category X,drugs_com
+drug_002490,Symbyax,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002491,Symfi,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002492,Symfi Lo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002493,Symlin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002494,Symlin Pen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002495,Symlinpen 120,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002496,Symlinpen 60,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002500,Synjardy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002501,Synjardy Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002508,Tactinal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002509,Tadalafil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002510,Tagamet Hb,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002513,Tannic 12 S,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002514,Tanzeum,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002515,Tapentadol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002516,Targadox,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002516,Targadox,pregnancy,Pregnancy category D,drugs_com
+drug_002517,Tarka,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002517,Tarka,pregnancy,Pregnancy category D,drugs_com
+drug_002520,Tazarotene,pregnancy,Pregnancy category X,drugs_com
+drug_002522,Tazorac,pregnancy,Pregnancy category X,drugs_com
+drug_002525,Tekturna,pregnancy,Pregnancy category D,drugs_com
+drug_002526,Tekturna Hct,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002526,Tekturna Hct,pregnancy,Pregnancy category D,drugs_com
+drug_002528,Telmisartan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002528,Telmisartan,pregnancy,Pregnancy category D,drugs_com
+drug_002529,Temazepam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002529,Temazepam,pregnancy,Pregnancy category X,drugs_com
+drug_002532,Tempra Quicklets,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002534,Tenoretic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002534,Tenoretic,pregnancy,Pregnancy category D,drugs_com
+drug_002535,Tenoretic 100,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002535,Tenoretic 100,pregnancy,Pregnancy category D,drugs_com
+drug_002536,Tenoretic 50,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002536,Tenoretic 50,pregnancy,Pregnancy category D,drugs_com
+drug_002537,Tenormin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002537,Tenormin,pregnancy,Pregnancy category D,drugs_com
+drug_002538,Tepadina,pregnancy,Pregnancy category D,drugs_com
+drug_002539,Terazosin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002541,Tetracycline,pregnancy,Pregnancy category D,drugs_com
+drug_002545,Theracaps Multi Symptom Cough And Cold Reliever,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002546,Theraflu Daytime Severe Cold And Cough,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002547,Theraflu Flu And Sore Throat,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002548,Theraflu Nighttime Severe Cold And Cough,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002549,Theraflu Nighttime Severe Cold And Cough Caplets,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002550,Theraflu Sinus And Cold,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002551,Theraflu Warming Relief Daytime Severe Cold And Cough,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002552,Theraflu Warming Relief Nighttime Severe Cold And Cough,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002557,Thioridazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002558,Thiotepa,pregnancy,Pregnancy category D,drugs_com
+drug_002559,Thiothixene,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002563,Tiagabine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002566,Tigecycline,pregnancy,Pregnancy category D,drugs_com
+drug_002570,Timolol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002576,Tirzepatide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002580,Tivorbex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002581,Tobi,pregnancy,Pregnancy category D,drugs_com
+drug_002582,Tobramycin,pregnancy,Pregnancy category D,drugs_com
+drug_002585,Tofranil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002586,Tolmetin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002587,Tolterodine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002588,Topamax,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002588,Topamax,pregnancy,Pregnancy category D,drugs_com
+drug_002592,Topiramate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002592,Topiramate,pregnancy,Pregnancy category D,drugs_com
+drug_002593,Toposar,pregnancy,Pregnancy category D,drugs_com
+drug_002594,Topotecan,pregnancy,Pregnancy category D,drugs_com
+drug_002595,Toprol Xl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002596,Torsemide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002598,Toujeo Max Solostar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002599,Toujeo Solostar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002602,Tradjenta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002603,Tramadol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002604,Trandate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002605,Trandolapril,pregnancy,Pregnancy category D,drugs_com
+drug_002606,Trandolapril Verapamil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002606,Trandolapril Verapamil,pregnancy,Pregnancy category D,drugs_com
+drug_002608,Tranxene,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002609,Tranxene T Tab,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002610,Tranylcypromine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002612,Trazodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002615,Tresiba,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002617,Trexall,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002617,Trexall,pregnancy,Pregnancy category X,drugs_com
+drug_002618,Treximet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002620,Trezix,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002621,Tri Estarylla,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002621,Tri Estarylla,pregnancy,Pregnancy category X,drugs_com
+drug_002622,Tri Linyah,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002622,Tri Linyah,pregnancy,Pregnancy category X,drugs_com
+drug_002623,Tri Lo Marzia,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002623,Tri Lo Marzia,pregnancy,Pregnancy category X,drugs_com
+drug_002624,Tri Previfem,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002624,Tri Previfem,pregnancy,Pregnancy category X,drugs_com
+drug_002625,Tri Sprintec,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002625,Tri Sprintec,pregnancy,Pregnancy category X,drugs_com
+drug_002627,Triaminic Multi Symptom Fever,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002628,Triaminic Softchews Cough And Sore Throat,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002630,Triazolam,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002630,Triazolam,pregnancy,Pregnancy category X,drugs_com
+drug_002631,Tribenzor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002631,Tribenzor,pregnancy,Pregnancy category D,drugs_com
+drug_002633,Tricode Gf,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002636,Trifluoperazine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002637,Trijardy Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002638,Trileptal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002641,Trimipramine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002642,Trintellix,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002645,Triumeq,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002646,Triumeq Pd,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002647,Trizivir,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002649,Trokendi Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002649,Trokendi Xr,pregnancy,Pregnancy category D,drugs_com
+drug_002651,Trospium,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002653,Trudhesa,pregnancy,Pregnancy category X,drugs_com
+drug_002654,Trulicity,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002660,Tusnel C,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002661,Tussicaps,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002663,Tussionex Pennkinetic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002664,Tuzistra Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002665,Twilite,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002667,Twynsta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002667,Twynsta,pregnancy,Pregnancy category D,drugs_com
+drug_002669,Tycolene,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002670,Tygacil,pregnancy,Pregnancy category D,drugs_com
+drug_002671,Tylenol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002672,Tylenol 8 Hour,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002673,Tylenol Allergy Multi Symptom,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002674,Tylenol Arthritis Pain,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002675,Tylenol Children S Cold Cough Runny Nose,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002676,Tylenol Children S Cold Cough Sore Throat,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002677,Tylenol Children S Cold Flu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002678,Tylenol Cold,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002679,Tylenol Cold And Cough Nighttime,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002680,Tylenol Cold And Flu Severe,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002681,Tylenol Cold Max Day,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002682,Tylenol Cold Multi Symptom Nighttime,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002683,Tylenol Cold Multi Symptom Nighttime Liquid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002684,Tylenol Cold Multi Symptom Severe,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002685,Tylenol Cough And Sore Throat Daytime,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002686,Tylenol Cough And Sore Throat Nightime,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002687,Tylenol Plus Children S Cold,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002688,Tylenol Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002689,Tylenol Sinus Congestion And Pain Nighttime,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002690,Tylophen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002697,Ultracet,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002701,Ultram,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002706,Unisom Sleepgels,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002707,Unisom Sleepmelts,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002708,Unisom Sleeptabs,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002710,Up And Up Anti Diarrheal Solution,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002713,Urelle,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002714,Uretron Ds,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002715,Uribel,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002716,Urimar T,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002717,Urin D S,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002718,Urised,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002719,Uro 458,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002721,Uro Mp,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002722,Uro Sp,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002723,Uroav 81,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002724,Uroav B,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002725,Urogesic Blue,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002727,Ustell,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002728,Uta,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002729,Uticap,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002730,Utira C,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002731,Utrona C,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002734,Valium,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002734,Valium,pregnancy,Pregnancy category D,drugs_com
+drug_002735,Valproic Acid,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002735,Valproic Acid,pregnancy,Pregnancy category D,drugs_com
+drug_002736,Valsartan,pregnancy,Pregnancy category D,drugs_com
+drug_002737,Valtoco,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002737,Valtoco,pregnancy,Pregnancy category D,drugs_com
+drug_002738,Valu Dryl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002739,Vanacof,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002740,Vanamine Pd,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002747,Vanquish,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002748,Vardenafil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002749,Vaseretic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002749,Vaseretic,pregnancy,Pregnancy category D,drugs_com
+drug_002750,Vasotec,pregnancy,Pregnancy category D,drugs_com
+drug_002751,Vazalore,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002754,Veklury,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002756,Venlafaxine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002757,Verapamil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002759,Verelan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002760,Verelan Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002761,Versacloz,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002763,Vi Sudo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002764,Viagra,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002766,Vibramycin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002766,Vibramycin,pregnancy,Pregnancy category D,drugs_com
+drug_002767,Vicks Dayquil Cold And Flu Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002768,Vicks Dayquil Severe Cold And Flu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002769,Vicks Formula 44 Custom Care Cough And Cold Pm,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002770,Vicks Nyquil Cold And Flu Nighttime Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002771,Vicks Nyquil Cold And Flu Nighttime Relief Alcohol Free,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002772,Vicks Nyquil D Cold And Flu Nighttime Relief,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002773,Vicks Nyquil Severe Cold And Flu,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002776,Victoza,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002777,Vigabatrin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002778,Vigadrone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002779,Viibryd,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002780,Vilamit Mb,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002781,Vilazodone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002782,Vilevev Mb,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002784,Vimovo,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002785,Vimpat,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002786,Vinblastine,pregnancy,Pregnancy category D,drugs_com
+drug_002787,Vincristine,pregnancy,Pregnancy category D,drugs_com
+drug_002792,Virtussin Dac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002795,Vitapap,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002796,Vivactil,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002798,Voltaren,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002798,Voltaren,pregnancy,Pregnancy category D,drugs_com
+drug_002800,Vortioxetine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002801,Vraylar,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002803,Vytorin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002803,Vytorin,pregnancy,Pregnancy category X,drugs_com
+drug_002804,Vyvanse,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002805,Wal Finate,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002807,Wegovy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002809,Wellbutrin Sr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002810,Wellbutrin Xl,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002815,Xanax,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002815,Xanax,pregnancy,Pregnancy category D,drugs_com
+drug_002817,Xcopri,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002820,Xenical,pregnancy,Pregnancy category X,drugs_com
+drug_002822,Xigduo Xr,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002823,Ximino,pregnancy,Pregnancy category D,drugs_com
+drug_002824,Xodol,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002825,Xolox,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002831,Xtampza Er,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002832,Xultophy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002835,Xyzal,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002836,Yasmin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002836,Yasmin,pregnancy,Pregnancy category X,drugs_com
+drug_002837,Yaz,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002837,Yaz,pregnancy,Pregnancy category X,drugs_com
+drug_002841,Z Sleep,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002842,Zaleplon,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002844,Zarah,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002844,Zarah,pregnancy,Pregnancy category X,drugs_com
+drug_002845,Zarontin,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002846,Zaroxolyn,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002852,Zenatane,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002852,Zenatane,pregnancy,Pregnancy category X,drugs_com
+drug_002853,Zenzedi,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002855,Zestoretic,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002855,Zestoretic,pregnancy,Pregnancy category D,drugs_com
+drug_002856,Zestril,pregnancy,Pregnancy category D,drugs_com
+drug_002859,Ziac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002860,Ziagen,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002863,Ziconotide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002868,Ziprasidone,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002869,Zipsor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002869,Zipsor,pregnancy,Pregnancy category D,drugs_com
+drug_002873,Zocor,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002873,Zocor,pregnancy,Pregnancy category X,drugs_com
+drug_002875,Zodryl Dac,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002876,Zoledronic Acid,pregnancy,Pregnancy category D,drugs_com
+drug_002877,Zolmitriptan,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002878,Zoloft,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002879,Zolpidem,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002880,Zolpimist,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002881,Zometa,pregnancy,Pregnancy category D,drugs_com
+drug_002882,Zomig,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002883,Zomig Nasal Spray,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002884,Zomig Zmt,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002885,Zonalon,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002886,Zonegran,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002887,Zonisade,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002888,Zonisamide,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002890,Zorvolex,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002890,Zorvolex,pregnancy,Pregnancy category D,drugs_com
+drug_002898,Ztalmy,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002899,Zumandimine,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002899,Zumandimine,pregnancy,Pregnancy category X,drugs_com
+drug_002900,Zyfrel,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002902,Zypitamag,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002902,Zypitamag,pregnancy,Pregnancy category X,drugs_com
+drug_002903,Zyprexa,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002904,Zyprexa Intramuscular,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002905,Zyprexa Relprevv,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002906,Zyprexa Zydis,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002907,Zyrtec,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002908,Zyrtec D,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002909,Zyrtec D 12 Hour,concurrent alcohol use,Alcohol interaction flag,drugs_com
+drug_002911,Zzzquil,concurrent alcohol use,Alcohol interaction flag,drugs_com

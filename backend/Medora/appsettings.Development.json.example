@@ -1,0 +1,26 @@
+{
+  "ConnectionStrings": {
+    "Conn": "Server=localhost;Database=MedoraDb;User Id=medora;Password=MedoraLocalDb!2026;TrustServerCertificate=True;Encrypt=True;"
+  },
+  "Jwt": {
+    "Key": "MedoraExampleJwtSigningKeyOnlyForLocalDevelopment2026",
+    "Issuer": "http://localhost:5117",
+    "Audience": "http://localhost:5117"
+  },
+  "Google": {
+    "ClientId": "your-google-client-id.apps.googleusercontent.com"
+  },
+  "Facebook": {
+    "AppId": "your-facebook-app-id",
+    "AppSecret": "your-facebook-app-secret"
+  },
+  "Email": {
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "EnableSsl": true,
+    "Username": "dev-noreply@medora.example.com",
+    "AppPassword": "gmail-app-password-goes-here",
+    "FromEmail": "noreply@example.com",
+    "FromName": "Medora Dev"
+  }
+}

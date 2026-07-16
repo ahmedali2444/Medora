@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Medora/Medora.csproj" />
+  <Project Path="Medora.Tests/Medora.Tests.csproj" />
+</Solution>

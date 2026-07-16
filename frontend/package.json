@@ -1,0 +1,49 @@
+{
+  "name": "medora",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:android:emulator": "vite build --mode android-emulator",
+    "sync:android:emulator": "npm run build:android:emulator && npx cap sync android",
+    "lint": "node node_modules/eslint/bin/eslint.js src",
+    "test": "vitest run",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/cli": "^8.4.1",
+    "@capacitor/core": "^8.4.1",
+    "@microsoft/signalr": "^10.0.0",
+    "@react-oauth/google": "^0.13.5",
+    "html-to-image": "^1.11.13",
+    "html2canvas": "^1.4.1",
+    "i18next": "^26.0.6",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.563.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-i18next": "^17.0.4",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.13.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.24",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "vite": "^6.4.2",
+    "vitest": "^3.2.6"
+  }
+}

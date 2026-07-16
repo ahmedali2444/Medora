@@ -1,0 +1,17 @@
+symptom,action,urgency_level
+Chest Pain,Seek emergency care immediately.,high
+Shortness Of Breath,Seek urgent medical evaluation now.,high
+Vomiting Blood,Go to the emergency department now.,high
+Blood In Stool,Seek urgent medical evaluation now.,high
+Fainting,Seek urgent medical evaluation now.,high
+Decreased Heart Rate,Seek urgent medical evaluation now.,high
+Increased Heart Rate,Seek urgent medical evaluation now.,high
+Retention Of Urine,Seek urgent medical evaluation today.,high
+Jaundice,Seek prompt medical evaluation.,high
+Paralysis,Call emergency services immediately.,high
+Focal Weakness,Call emergency services immediately.,high
+Seizures,Call emergency services immediately.,high
+Throat Swelling,Call emergency services immediately.,high
+Difficulty In Swallowing,Seek urgent medical evaluation now.,high
+Fever,"If fever is persistent, severe, or with red flags, seek medical care promptly.",medium
+Severe Abdominal Pain,Seek urgent medical evaluation now.,high

@@ -1,0 +1,465 @@
+﻿Medora AI Assistant Knowledge Base / قاعدة معرفة مساعد Medora
+Purpose / الغرض: This is a bilingual, product-accurate support manual for an in-product AI assistant. It documents only workflows currently exposed in the Medora codebase. It is written in small, self-contained feature blocks so it can be split into JSON documents or RAG chunks.
+هذا الدليل ثنائي اللغة ومبني على الخصائص الموجودة فعلياً في Medora. كل قسم مستقل قدر الإمكان ليصلح للتقسيم إلى عناصر JSON أو مقاطع RAG.
+0. AI Operating Rules / قواعد تشغيل المساعد
+Scope and safety / النطاق والسلامة
+    • AR: يجيب المساعد عن كيفية استخدام المنصة، ولا يشخّص الأمراض ولا يصف أو يغيّر جرعات الأدوية. عند وجود أعراض خطرة أو طارئة، يجب توجيه المستخدم لطلب الرعاية الطارئة محلياً فوراً.
+    • EN: The assistant explains how to use the platform. It must not diagnose conditions or prescribe/change medication doses. For severe or emergency symptoms, instruct the user to seek immediate local emergency care.
+    • AR: لا تعد المستخدم بميزة غير متاحة. أمثلة غير متاحة حالياً في واجهة المريض: رفع ملفات طبية مستقلة، تعديل/إلغاء الموعد من حساب المريض، وتتبع طلبات الدواء من صفحة مريض مخصصة.
+    • EN: Do not promise unavailable features. The current patient UI has no standalone medical-file upload, patient-side appointment edit/cancel control, or dedicated patient order-tracking page.
+Answer template / قالب الإجابة
+For each answer, identify the user role, name the page/menu/button exactly, give numbered steps, say what happens next, then provide an appropriate fallback.
+في كل إجابة: حدّد نوع المستخدم، واذكر اسم الصفحة/القائمة/الزر، ثم الخطوات المرقمة وما الذي سيحدث بعدها، ثم حل بديل مناسب عند التعذر.
+
+1. General Platform Overview / نظرة عامة على المنصة
+Feature Name: Medora Platform Overview / نظرة عامة على Medora
+Description / الوصف:
+    • AR: Medora منصة صحية تجمع البحث عن الأطباء وحجز المواعيد، معلومات الأدوية والصيدليات، طلبات الأدوية، الروشتات، والمحتوى الصحي. كما توفر لوحات تشغيل للطبيب والصيدلية والإدارة.
+    • EN: Medora is a healthcare platform that brings together doctor discovery and booking, medicine and pharmacy information, medicine orders, prescriptions, and health articles. It also provides operational dashboards for doctors, pharmacies, and administrators.
+Who Can Use / من يمكنه الاستخدام: Guest, Patient, Doctor, Pharmacy, Admin / زائر، مريض، طبيب، صيدلية، مدير.
+User roles and available areas / الأدوار والأقسام:
+Role / الدور	Current areas / الأقسام المتاحة حالياً
+Guest / زائر	Home, services, doctors, medicine search, pharmacies, articles, contact, sign in/up / الرئيسية، الخدمات، الأطباء، الأدوية، الصيدليات، المقالات، التواصل، التسجيل
+Patient / مريض	Patient appointments, prescriptions, account settings / المواعيد، الروشتات، إعدادات الحساب
+Doctor / طبيب	Overview, appointments, patients, prescriptions, reviews, clinics, profile, settings / لوحة ملخص، مواعيد، مرضى، روشتات، تقييمات، عيادات، ملف وإعدادات
+Pharmacy / صيدلية	Overview, orders, inventory, prescriptions, customers, delivery, reviews, reports, profile, settings / ملخص، طلبات، مخزون، روشتات، عملاء، توصيل، تقييمات، تقارير، ملف وإعدادات
+Admin / مدير	Overview, users, doctors, pharmacies, medicines, appointments, orders, articles, reviews, reports, lookup data, settings / لوحة الإدارة وكل أقسام الإشراف
+
+Typical journey / رحلة المستخدم العامة:
+    1. AR: افتح الصفحة الرئيسية واختر الخدمة من شريط التنقل أو صفحة الخدمات. EN: Open Home and choose a service from the navigation bar or Services page.
+    2. AR: استعرض الأطباء أو الأدوية/الصيدليات أو المقالات بدون تسجيل عندما تسمح الصفحة بذلك. EN: Browse doctors, medicines/pharmacies, or articles without signing in where the page permits it.
+    3. AR: عند الحاجة إلى إجراء محمي، سجّل الدخول أو أنشئ حساباً بالدور الصحيح. EN: When an action requires an account, sign in or create an account with the correct role.
+    4. AR: أكمل ملفك إن ظهرت صفحة أكمل بياناتك؛ ثم نفّذ الإجراء مثل الحجز أو إنشاء الروشتة أو إدارة الطلب. EN: Complete your profile if the Complete Profile page appears, then perform the action such as booking, prescribing, or processing an order.
+User Questions Examples / أمثلة أسئلة المستخدم:
+    • "What can I do on Medora?" / "ماذا يمكنني أن أفعل في Medora؟"
+    • "Which account type should I choose?" / "أي نوع حساب أختار؟"
+AI Answer / إجابة جاهزة:
+AR: يمكنك استخدام Medora للبحث عن طبيب وحجز موعد، البحث عن دواء أو صيدلية وطلب الأدوية المتاحة، والاطلاع على الروشتات والمقالات. اختر حساب مريض لاستخدام الخدمات الصحية، أو طبيب/صيدلية إذا كنت مقدم خدمة، بينما حساب Admin مخصص للإدارة.
+EN: Medora lets you find doctors and book appointments, search medicines or pharmacies and order available medicines, and view prescriptions and articles. Choose Patient for healthcare services, Doctor/Pharmacy if you are a provider, and Admin for administration.
+
+2. Patient Documentation / دليل المريض
+Feature Name: Register a Patient Account / إنشاء حساب مريض
+Description / الوصف: Creates a Patient account and starts email verification. / ينشئ حساب مريض ويبدأ التحقق عبر البريد الإلكتروني.
+Who Can Use / من يمكنه الاستخدام: Guest / زائر.
+Steps / الخطوات:
+    1. AR: افتح إنشاء حساب / Sign Up واختر بطاقة مريض / Patient. EN: Open Sign Up and select the Patient role card.
+    2. AR: اكتب الاسم الكامل، رقم الهاتف، البريد الإلكتروني، كلمة المرور وتأكيدها، ثم وافق على الشروط. EN: Enter full name, phone number, email, password and confirmation, then accept the terms.
+    3. AR: يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل، حرف كبير، حرف صغير، رقم، ورمز خاص. اضغط إنشاء حساب / Create Account. EN: The password needs at least 6 characters, uppercase, lowercase, number, and special character. Select Create Account.
+    4. AR: تنتقل إلى صفحة OTP؛ أدخل رمز التحقق المرسل للبريد. EN: You are taken to the OTP page; enter the verification code sent by email.
+    5. AR: بعد التحقق، قد تظهر صفحة أكمل بياناتك الشخصية / Complete Your Profile. أضف الاسم بالعربية والإنجليزية، الهاتف، تاريخ الميلاد، والملاحظات الطبية الاختيارية، ثم اضغط حفظ ومتابعة / Save & Continue. EN: After verification, Complete Your Profile may open. Add Arabic and English names, phone, date of birth, and optional medical notes, then select Save & Continue.
+What happens next / ما الذي يحدث بعد ذلك: The account is verified and the profile data is saved; the user is redirected to Home. / يتم توثيق الحساب وحفظ الملف ثم العودة للصفحة الرئيسية.
+User Questions Examples / أمثلة:
+    • "How do I create a patient account?" / "إزاي أعمل حساب مريض؟"
+    • "Why is my password rejected?" / "ليه كلمة السر مرفوضة؟"
+AI Answer / إجابة جاهزة:
+AR: من صفحة إنشاء حساب اختر مريض، وأدخل بياناتك ثم اضغط إنشاء حساب. أكمل رمز OTP الذي يصلك على البريد، وبعدها أكمل بيانات الملف الشخصي. تأكد أن كلمة المرور تحتوي على 6 أحرف على الأقل وحرف كبير وصغير ورقم ورمز خاص.
+EN: On Sign Up, select Patient, enter your details, and select Create Account. Complete the email OTP, then finish your profile. Ensure the password has 6+ characters, uppercase, lowercase, a number, and a special character.
+Feature Name: Sign In, Password Reset, and Sign Out / تسجيل الدخول واستعادة كلمة المرور وتسجيل الخروج
+Description / الوصف: Authenticates existing users, supports Google sign-in, email reset, account logout and logout from all sessions. / يتيح دخول المستخدم الحالي، دخول Google، استعادة كلمة المرور بالبريد، والخروج من الجلسات.
+Who Can Use / من يمكنه الاستخدام: Guest or signed-in user / زائر أو مستخدم مسجل.
+Steps / الخطوات:
+    1. Sign in / تسجيل الدخول: Open تسجيل الدخول / Sign In, enter email and password, then select تسجيل الدخول / Sign In. Google sign-in is available through Continue with Google. Facebook sign-in only displays “coming soon” and must not be described as available. / افتح صفحة الدخول، أدخل البريد وكلمة المرور واضغط الزر. يتوفر Google فقط؛ Facebook غير متاح بعد.
+    2. Forgot password / نسيت كلمة المرور: From Sign In select نسيت كلمة المرور؟ / Forgot Password?, enter the account email, continue through the email-code verification screen, set the new password, and submit Reset Password. / من صفحة الدخول اختر نسيت كلمة المرور، أدخل البريد، تحقق بالرمز، ثم اختر كلمة مرور جديدة واضغط إعادة التعيين.
+    3. Sign out / تسجيل الخروج: Use the user menu and choose تسجيل الخروج / Log out. The account API also supports Log out of all sessions for removing all active sessions. / من قائمة المستخدم اختر تسجيل الخروج. يوجد كذلك خروج من جميع الجلسات.
+User Questions Examples / أمثلة:
+    • "I forgot my password." / "نسيت كلمة المرور."
+    • "Can I sign in with Facebook?" / "هل أقدر أدخل بفيسبوك؟"
+AI Answer / إجابة جاهزة:
+AR: لاستخدام كلمة مرور جديدة، افتح نسيت كلمة المرور؟ من صفحة الدخول، أدخل بريدك واتبع رمز التحقق ثم احفظ كلمة المرور الجديدة. تسجيل الدخول عبر Google متاح، أما Facebook فهو ظاهر كخدمة قادمة وليس متاحاً حالياً.
+EN: To set a new password, select Forgot Password? on Sign In, enter your email, follow the verification-code flow, and save the new password. Google sign-in is available; Facebook is shown as coming soon and is not currently available.
+Feature Name: Patient Profile and Medical Notes / ملف المريض والملاحظات الطبية
+Description / الوصف: Updates personal information, date of birth, phone, bilingual names, medical notes, and password. / يحدّث البيانات الشخصية وتاريخ الميلاد والهاتف والاسمين والملاحظات الطبية وكلمة المرور.
+Who Can Use / من يمكنه الاستخدام: Patient / مريض.
+Steps / الخطوات:
+    1. AR: من حساب المريض افتح إعدادات الحساب / Account Settings. EN: In the patient area, open Account Settings.
+    2. AR: ضمن البيانات الشخصية / Personal Information عدّل الاسم بالعربية أو الإنجليزية أو الهاتف أو تاريخ الميلاد أو الملاحظات الطبية / Medical Notes. EN: Under Personal Information, edit Arabic/English name, phone, date of birth, or Medical Notes.
+    3. AR: اضغط حفظ البيانات / Save Profile. تظهر رسالة نجاح بعد الحفظ. EN: Select Save Profile. A success message appears when saved.
+    4. AR: لتغيير كلمة المرور اكتب الحالية والجديدة في قسم تغيير كلمة المرور / Change Password ثم اضغط تحديث كلمة المرور / Update Password. EN: To change the password, enter current and new password under Change Password, then select Update Password.
+Important current limitation / قيد حالي مهم:
+    • AR: الملاحظات الطبية نص داخل ملف المريض. لا توجد حالياً واجهة مستقلة لرفع تحاليل أو ملفات طبية أو إنشاء سجل مرضي تفصيلي منفصل.
+    • EN: Medical notes are text in the patient profile. There is currently no standalone UI for uploading lab files/documents or creating a separate detailed medical-record file.
+User Questions Examples / أمثلة:
+    • "How do I change my phone number?" / "أغير رقم الهاتف إزاي؟"
+    • "Can I upload a medical report?" / "هل أقدر أرفع تقرير طبي؟"
+AI Answer / إجابة جاهزة:
+AR: افتح إعدادات الحساب، عدّل رقم الهاتف أو أي بيانات أخرى داخل البيانات الشخصية ثم اضغط حفظ البيانات. يمكنك إضافة معلومات صحية كنص في الملاحظات الطبية. رفع ملفات طبية مستقلة غير متاح في الواجهة حالياً.
+EN: Open Account Settings, edit your phone or other details in Personal Information, then select Save Profile. You can add health information as text in Medical Notes. Standalone medical-file uploads are not currently available in the UI.
+Feature Name: Find a Doctor / البحث عن طبيب
+Description / الوصف: Searches the public doctors directory and opens an individual doctor profile. / يبحث في دليل الأطباء العام ويفتح صفحة الطبيب.
+Who Can Use / من يمكنه الاستخدام: Guest or Patient / زائر أو مريض.
+Steps / الخطوات:
+    1. AR: افتح الأطباء / Doctors من التنقل. EN: Open Doctors from navigation.
+    2. AR: استخدم البحث واختيارات التخصص والموقع/المحافظة والمدينة والفلاتر الظاهرة في الصفحة لتضييق النتائج. EN: Use search, specialty, location/governorate/city, and the visible filters to narrow results.
+    3. AR: راجع بطاقات النتائج؛ تعرض بطاقة الطبيب اسمه وتخصصه وبيانات العيادة والتقييم والرسوم أو المعلومات المتاحة. EN: Review result cards; they show the doctor’s name, specialty, clinic details, rating, fee, and available information.
+    4. AR: اضغط على الطبيب لفتح صفحة تفاصيل الطبيب / Doctor Details. EN: Select a doctor to open Doctor Details.
+Doctor Details content / محتوى صفحة الطبيب:
+    • AR: الاسم والصورة والتخصص والنبذة والخبرة/المؤهلات، بيانات العيادة والعنوان، سعر الكشف وسعر إعادة الكشف عند وجوده، التقييمات، وأزرار الحجز. البيانات المعروضة تعتمد على ما أدخله الطبيب وما هو متاح في ملفه.
+    • EN: Name, photo, specialty, bio, experience/qualifications, clinic and address, consultation and re-consultation fee when available, reviews, and booking controls. Displayed fields depend on the doctor’s profile data.
+User Questions Examples / أمثلة:
+    • "How do I find a dermatologist near me?" / "إزاي ألاقي دكتور جلدية قريب مني؟"
+    • "Where can I see doctor reviews?" / "أين أرى تقييمات الطبيب؟"
+AI Answer / إجابة جاهزة:
+AR: افتح الأطباء، اختر تخصص الجلدية ثم حدّد المحافظة أو المدينة واستخدم الفلاتر المتاحة. افتح بطاقة الطبيب لرؤية ملفه وبيانات العيادة والرسوم والتقييمات ثم استخدم زر الحجز إذا كان مناسباً لك.
+EN: Open Doctors, select Dermatology, choose the governorate or city, and use the available filters. Open a doctor card to see the profile, clinic details, fees, and reviews, then use the booking button if suitable.
+Feature Name: Book a Doctor Appointment / حجز موعد طبيب
+Description / الوصف: Books an available clinic time with a doctor. / يحجز وقتاً متاحاً في عيادة الطبيب.
+Who Can Use / من يمكنه الاستخدام: Signed-in Patient / مريض مسجل الدخول.
+Steps / الخطوات:
+    1. AR: من صفحة تفاصيل الطبيب اضغط حجز موعد / Book Appointment. إن لم تكن مسجلاً، سجّل الدخول أولاً. EN: On Doctor Details, select Book Appointment. Sign in first if requested.
+    2. AR: في نافذة حجز موعد راجع اسم العيادة والتخصص والعنوان. اكتب الاسم بالكامل ورقم الهاتف. EN: In the Book Appointment dialog, review clinic, specialty, and address. Enter Full Name and Phone Number.
+    3. AR: اختر يومًا من الأيام المتاحة ثم اختر وقتاً من المواعيد المتاحة. الأيام والأوقات تُحمّل من جدول الطبيب لفترة قادمة تصل إلى 21 يوماً. EN: Select an available day, then an available time. Days/times are loaded from the doctor’s schedule for up to the next 21 days.
+    4. AR: أضف ملاحظات اختيارية ثم اضغط تأكيد الحجز / Confirm Booking. EN: Add optional Notes, then select Confirm Booking.
+    5. AR: تظهر رسالة نجاح “تم الحجز بنجاح”. يُنشأ الموعد بحالة Pending / قيد الانتظار حتى يتم تأكيده. EN: A “Booking confirmed” message appears. The appointment is created as Pending until confirmed.
+Appointment statuses / حالات الموعد:
+Status	Arabic meaning / المعنى	Meaning / الوصف
+Pending	قيد الانتظار	Created and awaiting confirmation / تم الإنشاء وينتظر التأكيد
+Confirmed	مؤكد	Confirmed by the provider/admin / تم تأكيده من مقدم الخدمة أو الإدارة
+Completed	مكتمل	Appointment marked completed / تم تسجيل انتهاء الموعد
+Cancelled	ملغي	Appointment was cancelled / تم إلغاء الموعد
+
+Follow-up / المتابعة:
+    • AR: افتح مواعيدي / My Appointments داخل حساب المريض. توجد تبويبات القادمة / Upcoming والسابقة / Past، وتظهر الحالة والطبيب والتخصص والعيادة وموعد الزيارة والسبب إن أُدخل.
+    • EN: Open My Appointments in the patient area. Use Upcoming and Past; the page shows status, doctor, specialty, clinic, time, and reason if provided.
+    • AR: لا توفر واجهة المريض الحالية زرًا لتعديل أو إلغاء الموعد. عند الحاجة يجب التواصل مع العيادة/الدعم، ولا تقل للمستخدم إن هناك زر إلغاء في حسابه.
+    • EN: The current patient UI has no appointment edit or cancel button. For a change/cancellation, direct the user to the clinic/support; do not tell them there is a patient-side cancel button.
+User Questions Examples / أمثلة:
+    • "How do I book a doctor?" / "ازاي احجز دكتور؟"
+    • "Why is my booking pending?" / "ليه الحجز قيد الانتظار؟"
+    • "Can I cancel my appointment?" / "هل أستطيع إلغاء الموعد؟"
+AI Answer / إجابة جاهزة:
+AR: افتح صفحة الطبيب واضغط حجز موعد، ثم أدخل الاسم والهاتف واختر اليوم والوقت المتاحين واضغط تأكيد الحجز. ستجد الموعد في مواعيدي. حالة قيد الانتظار تعني أنه تم إنشاؤه وينتظر التأكيد. لا يوجد حالياً زر تعديل أو إلغاء داخل حساب المريض؛ تواصل مع العيادة أو الدعم لطلب ذلك.
+EN: Open the doctor’s page and select Book Appointment, enter your name and phone, choose an available day/time, and select Confirm Booking. Find it under My Appointments. Pending means it was created and awaits confirmation. There is currently no patient-side edit/cancel button; contact the clinic or support to request a change.
+Feature Name: View Prescriptions and Order from a Prescription / عرض الروشتات وطلبها
+Description / الوصف: Shows prescriptions issued to the patient after a completed appointment, with print, save, share, search, and pharmacy-order options. / يعرض الروشتات الصادرة للمريض بعد الموعد المكتمل مع الطباعة والحفظ والمشاركة وطلبها من صيدلية.
+Who Can Use / من يمكنه الاستخدام: Patient / مريض.
+Steps / الخطوات:
+    1. AR: افتح روشتاتي / My Prescriptions. تظهر الروشتات الصادرة لك؛ إن لم توجد، ستظهر بعد أن يكمل الطبيب موعداً ويصدر روشتة. EN: Open My Prescriptions. Your issued prescriptions appear; if none exist, they appear after a doctor completes an appointment and creates one.
+    2. AR: استخدم حقل البحث باسم الدواء أو التشخيص، ثم اختر الروشتة من القائمة. EN: Search by medicine name or diagnosis, then select a prescription from the list.
+    3. AR: راجع التشخيص والأدوية والجرعة والتعليمات والكمية وملاحظات الطبيب. EN: Review diagnosis, medicines, dose, instructions, quantity, and doctor notes.
+    4. AR: استخدم طباعة / Print أو حفظ PDF / Save PDF أو مشاركة / Share حسب الجهاز. EN: Use Print, Save PDF, or Share as supported by the device.
+    5. AR: لطلب الأدوية اضغط طلب الأدوية / Order Medicines، اختر صيدلية ثم تابع الطلب. EN: To request medicines, select Order Medicines, choose a pharmacy, then continue the order.
+User Questions Examples / أمثلة:
+    • "Where are my old prescriptions?" / "أين أجد روشتاتي القديمة؟"
+    • "Can I print my prescription?" / "هل يمكنني طباعة الروشتة؟"
+AI Answer / إجابة جاهزة:
+AR: افتح روشتاتي من حساب المريض. اختر الروشتة المطلوبة لمراجعة الأدوية والتعليمات، ويمكنك استخدام طباعة أو حفظ PDF أو مشاركة. الروشتة تظهر بعد إتمام الموعد وإصدارها من الطبيب.
+EN: Open My Prescriptions in the patient area. Select the prescription to review medicines and instructions, then use Print, Save PDF, or Share. Prescriptions appear after the appointment is completed and the doctor issues one.
+
+3. Medicine and Pharmacy Documentation / دليل الأدوية والصيدليات
+Feature Name: Search Medicines and View Medicine Details / البحث عن الأدوية وتفاصيلها
+Description / الوصف: Searches the medicine catalogue and opens data-driven medicine information. / يبحث في كتالوج الأدوية ويفتح معلومات الدواء المرتبطة بالبيانات.
+Who Can Use / من يمكنه الاستخدام: Guest or signed-in user / زائر أو مستخدم مسجل.
+Steps / الخطوات:
+    1. AR: افتح الأدوية / Medicine واكتب اسم الدواء في مربع البحث. تظهر اقتراحات وعمليات بحث شائعة وسجل بحث محلي. EN: Open Medicine and type a medicine name in search. Suggestions, popular searches, and local recent searches appear.
+    2. AR: استخدم فلاتر التوفر والتوصيل والاستلام أو التصنيفات/الأعراض الموجودة بالواجهة عند الحاجة، ثم افتح بطاقة الدواء. EN: Use availability, delivery, pickup, category/symptom filters available in the interface, then open a medicine card.
+    3. AR: في صفحة التفاصيل راجع التبويبات المتاحة: الاستخدامات، الجرعة المعروضة، التحذيرات، البدائل، والصيدليات التي يتوفر بها الدواء. EN: On the detail page, review available tabs: uses, displayed dosage, warnings, alternatives, and pharmacies that stock the medicine.
+    4. AR: استخدم إضافة للسلة / Add to Cart، إضافة للمفضلة / Favorite، الصيدليات القريبة / Nearby Pharmacies، أو مشاركة / Share عند توفرها. EN: Use Add to Cart, Favorite, Nearby Pharmacies, or Share where available.
+Medication safety rule / قاعدة سلامة الدواء:
+AR: معلومات الاستخدام والتحذيرات والجرعات المعروضة معلومات مرجعية وليست وصفة فردية. لا ينبغي للمساعد اختيار دواء أو جرعة أو إيقاف علاج للمستخدم؛ يوجّه للصيدلي أو الطبيب عند الشك.
+EN: Displayed uses, warnings, and dosage information are reference information, not an individualized prescription. The assistant must not select a medicine/dose or advise stopping treatment; refer to a pharmacist or doctor when uncertain.
+User Questions Examples / أمثلة:
+    • "How do I find a medicine?" / "إزاي أبحث عن دواء؟"
+    • "Can the AI tell me what dose to take?" / "هل الـAI يحدد لي الجرعة؟"
+AI Answer / إجابة جاهزة:
+AR: افتح الأدوية، اكتب اسم الدواء واختر النتيجة لعرض الاستخدامات والتحذيرات والبدائل والصيدليات المتوفرة. أستطيع شرح المعلومات المعروضة، لكن لا أستطيع تحديد جرعة أو وصف علاج شخصي؛ راجع الطبيب أو الصيدلي لذلك.
+EN: Open Medicine, type the medicine name, and select a result to view uses, warnings, alternatives, and available pharmacies. I can explain the displayed information, but I cannot determine a dose or prescribe personalized treatment; ask a doctor or pharmacist for that.
+Feature Name: Favorites and Cart / المفضلة والسلة
+Description / الوصف: Saves medicine favorites and builds a medicine cart in the current browser experience. / يحفظ الأدوية المفضلة ويكوّن سلة أدوية ضمن تجربة المتصفح الحالية.
+Who Can Use / من يمكنه الاستخدام: Medicine-browser user / مستخدم قسم الأدوية.
+Steps / الخطوات:
+    1. AR: اضغط أيقونة القلب على بطاقة/صفحة الدواء لإضافته أو إزالته من المفضلة / Favorites. EN: Select the heart on a medicine card/detail to add or remove it from Favorites.
+    2. AR: اضغط إضافة للسلة / Add to Cart. من درج السلة تستطيع زيادة/تقليل الكمية أو حذف الصنف. EN: Select Add to Cart. In the cart drawer, increase/decrease quantity or remove an item.
+    3. AR: حدّد لكل عنصر توصيل / Delivery أو استلام / Pickup، ثم تابع إتمام الطلب. EN: Set Delivery or Pickup for each item, then proceed to checkout.
+Feature Name: Pharmacy Directory and Medicine Order / دليل الصيدليات وطلب الدواء
+Description / الوصف: Finds public pharmacies, displays a pharmacy’s medicines, and submits a cash order. / يبحث عن الصيدليات العامة، يعرض أدوية الصيدلية، ويرسل طلباً نقدياً.
+Who Can Use / من يمكنه الاستخدام: Guest can browse; Patient account is required to check out / يمكن للزائر التصفح؛ يلزم حساب مريض لإتمام الطلب.
+Steps / الخطوات:
+    1. AR: افتح الصيدليات / Pharmacies من قسم الأدوية، وابحث باسم الصيدلية. يمكن للصفحة استخدام الموقع عند السماح به لترتيب النتائج. EN: Open Pharmacies from Medicine and search by pharmacy name. The page may use location, if allowed, to order results.
+    2. AR: افتح صفحة الصيدلية لرؤية معلوماتها وقائمة الأدوية، وابحث داخل أدوية الصيدلية عند الحاجة. EN: Open a pharmacy page to see its details and medicine list; search within its medicines if needed.
+    3. AR: أضف الأدوية إلى السلة. اختر توصيل أو استلام، وأدخل اسم التواصل والهاتف والعنوان عند اختيار التوصيل وأي ملاحظات مطلوبة. EN: Add medicines to cart. Choose Delivery or Pickup, enter contact name/phone and a delivery address when using delivery, plus any needed notes.
+    4. AR: راجع الإجمالي ورسوم التوصيل ثم اضغط زر إتمام/تأكيد الطلب في السلة. طريقة الدفع الحالية هي نقدي / Cash. EN: Review total and delivery fee, then select the checkout/confirm control in cart. The current payment method is Cash.
+    5. AR: يُنشأ الطلب لدى الصيدلية بحالة Pending. EN: The pharmacy receives the order with Pending status.
+Order status dictionary / قاموس حالات الطلب:
+System status	Arabic / العربية	AI explanation / شرح المساعد
+Pending	قيد الانتظار	Order is submitted and awaiting pharmacy action / تم الإرسال وينتظر إجراء الصيدلية
+Accepted	مقبول	Pharmacy accepted the order / قبلت الصيدلية الطلب
+Preparing	قيد التجهيز	Pharmacy is preparing the items / الصيدلية تجهز الأصناف
+ReadyForPickup	جاهز للاستلام	Pickup order is ready / طلب الاستلام أصبح جاهزاً
+OutForDelivery	خرج للتوصيل	Delivery order is on its way / طلب التوصيل في الطريق
+Delivered	تم التسليم	Order was completed by delivery / اكتمل التسليم
+Cancelled	ملغي	Order was cancelled / تم إلغاء الطلب
+
+Current limitation / قيد حالي:
+    • AR: لا توجد حالياً صفحة واجهة مريض مخصصة لعرض كل الطلبات وتتبعها أو لإلغائها بعد الإرسال. لا تخترع مساراً مثل “طلباتي”.
+    • EN: There is currently no dedicated patient UI page to list/track all orders or cancel an order after submission. Do not invent a “My Orders” route.
+User Questions Examples / أمثلة:
+    • "How do I order medicine from a pharmacy?" / "إزاي أطلب دواء من صيدلية؟"
+    • "What does Out for Delivery mean?" / "يعني إيه Out for Delivery؟"
+AI Answer / إجابة جاهزة:
+AR: افتح الصيدلية أو الدواء، أضف المنتجات إلى السلة، واختر توصيل أو استلام. أدخل بيانات التواصل والعنوان عند التوصيل ثم أكّد الطلب؛ الدفع الحالي نقدي. حالة OutForDelivery تعني أن الطلب خرج بالفعل في طريقه للتوصيل. لا توجد حالياً شاشة مريض مستقلة لتتبع كل الطلبات أو إلغائها بعد الإرسال.
+EN: Open a pharmacy or medicine, add items to cart, and choose Delivery or Pickup. Enter contact details and an address for delivery, then confirm; the current payment method is cash. OutForDelivery means the order has left for delivery. There is no separate patient UI yet for tracking all orders or cancelling after submission.
+
+4. Doctor Documentation / دليل الطبيب
+Feature Name: Doctor Registration, Profile Setup, and Verification / تسجيل الطبيب وتجهيز الملف والتوثيق
+Description / الوصف: Creates a Doctor account, collects professional profile details, and uploads verification documents for review. / ينشئ حساب طبيب ويجمع البيانات المهنية ويرفع مستندات التوثيق للمراجعة.
+Who Can Use / من يمكنه الاستخدام: Guest registering as Doctor / زائر يسجل كطبيب.
+Steps / الخطوات:
+    1. AR: من إنشاء حساب اختر طبيب / Doctor، ثم أدخل البريد وكلمة المرور ووافق على الشروط وأكمل OTP. EN: On Sign Up, select Doctor, enter email/password, accept terms, and complete OTP.
+    2. AR: افتح أكمل ملف الطبيب / Complete Doctor Profile، وأدخل البيانات المطلوبة مثل الاسم والتخصص والنبذة والرسوم وبيانات الملف المتاحة، ثم احفظ. EN: Open Complete Doctor Profile, enter the required information such as name, specialty, bio, fees, and available profile fields, then save.
+    3. AR: افتح توثيق الطبيب / Doctor Verification، وارفع بطاقة النقابة وصورة سيلفي مع البطاقة ثم أرسل التوثيق. EN: Open Doctor Verification, upload the syndicate card and a selfie with the card, then submit verification.
+    4. AR: ينتظر الطلب مراجعة الإدارة؛ لا تؤكد للمستخدم أن التحقق تم قبل ظهور حالته/اعتماده. EN: The request waits for admin review; do not state verification is complete before its status/approval is shown.
+User Questions Examples / أمثلة:
+    • "How do I verify my doctor account?" / "إزاي أوثق حساب الطبيب؟"
+AI Answer / إجابة جاهزة:
+AR: بعد التسجيل كطبيب، أكمل بيانات الملف ثم افتح صفحة توثيق الطبيب. ارفع بطاقة النقابة وصورة سيلفي مع البطاقة وأرسل الطلب. بعد ذلك ينتظر التحقق مراجعة الإدارة.
+EN: After registering as a doctor, complete the profile, then open Doctor Verification. Upload the syndicate card and a selfie with it, and submit the request. It then awaits admin review.
+Feature Name: Doctor Dashboard, Profile, and Availability / لوحة الطبيب والملف والتوفر
+Description / الوصف: Provides overview metrics, profile editing, and availability controls. / يوفر ملخص الإحصاءات وتعديل الملف والتحكم في التوفر.
+Who Can Use / من يمكنه الاستخدام: Doctor / طبيب.
+Steps / الخطوات:
+    1. AR: بعد تسجيل الدخول افتح لوحة الطبيب / Doctor Overview لرؤية ملخص المواعيد والإحصاءات والتنبيهات والمواعيد الأخيرة. EN: After sign-in, open Doctor Overview for appointment summaries, statistics, notifications, and recent appointments.
+    2. AR: افتح الملف الشخصي / Profile لمراجعة بياناتك المهنية، أو الإعدادات / Settings لتعديل البيانات وإعدادات التوفر. EN: Open Profile to review professional information, or Settings to edit details and availability settings.
+    3. AR: في الإعدادات اختر أيام وساعات العمل المتاحة؛ عند وجود أيام فعالة يكون التوفر available، وبدونها يكون unavailable. احفظ التغييرات. EN: In Settings, select available working days/hours; with active days availability is available, otherwise unavailable. Save changes.
+Feature Name: Clinic Management / إدارة العيادات
+Description / الوصف: Creates, edits, and removes a doctor’s clinic records; each clinic may include location and working hours. / ينشئ ويعدّل ويحذف عيادات الطبيب ويمكن أن يشمل الموقع وساعات العمل.
+Who Can Use / من يمكنه الاستخدام: Doctor / طبيب.
+Steps / الخطوات:
+    1. AR: افتح العيادات / Clinics من قائمة الطبيب. EN: Open Clinics from the doctor sidebar.
+    2. AR: اضغط إضافة عيادة / Add Clinic. أدخل الاسم وبيانات العنوان، واختر المحافظة والمدينة عند ظهورها، وحدد الموقع على الخريطة إن استخدمته. EN: Select Add Clinic. Enter name/address, select governorate and city where shown, and set a map location if used.
+    3. AR: حدّد ساعات العمل، سعر الكشف وما يرتبط بالعيادة من بيانات، ثم اضغط حفظ / Save. EN: Set working hours, consultation fee, and available clinic information, then select Save.
+    4. AR: لتعديل عيادة، افتح إجراء تعديل / Edit للعيادة واحفظ. للحذف استخدم حذف / Delete ثم أكد العملية إن طلبت الواجهة ذلك. EN: To edit, open the clinic’s Edit action and save. To remove it, use Delete and confirm if prompted.
+Note / ملاحظة: Multiple clinic records can be created; the current UI models “branches” as separate clinics rather than a dedicated branch-management feature. / يمكن إنشاء عدة سجلات عيادات؛ الفروع تمثل عيادات منفصلة وليست ميزة فروع مستقلة.
+Feature Name: Appointment Management / إدارة المواعيد
+Description / الوصف: Lets a doctor list, filter, inspect, confirm, cancel, complete, and create a prescription for appointments. / يتيح للطبيب عرض المواعيد وفلترتها وفحصها وتأكيدها وإلغائها وإتمامها وإنشاء روشتة لها.
+Who Can Use / من يمكنه الاستخدام: Doctor / طبيب.
+Steps / الخطوات:
+    1. AR: افتح المواعيد / Appointments. استخدم تبويبات اليوم/القادم/السابق والبحث وفلاتر الحالة والنوع. EN: Open Appointments. Use today/upcoming/past tabs, search, and status/type filters.
+    2. AR: اضغط على الموعد أو افتحه من التقويم الأسبوعي لمراجعة بيانات المريض ووقت الموعد والسبب والعيادة. EN: Select an appointment or open it in the weekly calendar to review patient details, time, reason, and clinic.
+    3. AR: إذا كانت الحالة pending استخدم تأكيد / Confirm. إذا كانت pending أو confirmed استخدم إلغاء / Cancel عند الحاجة. EN: If status is pending, use Confirm. If it is pending or confirmed, use Cancel if needed.
+    4. AR: بعد إجراء الزيارة استخدم خيار الإتمام/بدء الكشف المعروض في التفاصيل، ثم أنشئ الروشتة إن لزم. EN: After the visit, use the completion/start-exam action shown in details, then create a prescription if needed.
+User Questions Examples / أمثلة:
+    • "How can I confirm an appointment?" / "إزاي أأكد الحجز؟"
+    • "How do I see today’s appointments?" / "إزاي أشوف مواعيد اليوم؟"
+AI Answer / إجابة جاهزة:
+AR: من لوحة الطبيب افتح المواعيد، ثم اختر تبويب اليوم أو استخدم الفلاتر. افتح الموعد؛ إذا كان قيد الانتظار اضغط تأكيد. يمكنك إلغاء الموعد من التفاصيل عندما تكون حالته قيد الانتظار أو مؤكداً.
+EN: From the doctor dashboard, open Appointments, choose the Today tab or use filters, and open the appointment. If it is Pending, select Confirm. You can cancel it from details while it is pending or confirmed.
+Feature Name: Patient List and Patient Context / قائمة المرضى وسياق المريض
+Description / الوصف: Provides a doctor-facing list derived from appointments and prescriptions, with search and status filters. / يوفر قائمة للطبيب مبنية على المواعيد والروشتات، مع البحث وفلاتر الحالة.
+Who Can Use / من يمكنه الاستخدام: Doctor / طبيب.
+Steps / الخطوات:
+    1. AR: افتح المرضى / Patients. EN: Open Patients.
+    2. AR: استخدم البحث والفلاتر مثل النشط/الجديد/إلغاء أو عدم حضور حسب ما تعرضه الصفحة. EN: Use search and filters such as active/new/cancelled-or-no-show as displayed.
+    3. AR: افتح بطاقة المريض لمراجعة سياقه المتاح للطبيب من المواعيد والروشتات. EN: Open a patient card to review the doctor-visible context from appointments and prescriptions.
+Boundary / الحد: The page is not a general document-upload medical-record system; it presents the patient context available through Medora’s appointment/prescription data. / ليست الصفحة نظام رفع ملفات للسجل الطبي، بل تعرض السياق المتاح من بيانات المواعيد والروشتات.
+Feature Name: Create and Manage Prescriptions / إنشاء وإدارة الروشتات
+Description / الوصف: Lets a doctor create prescriptions, add medicine items and instructions, save them, and make them available to the patient. / يتيح للطبيب إنشاء روشتات وإضافة الأدوية والتعليمات وحفظها لتظهر للمريض.
+Who Can Use / من يمكنه الاستخدام: Doctor / طبيب.
+Steps / الخطوات:
+    1. AR: افتح الروشتات / Prescriptions أو ابدأ من تفاصيل الموعد بعد الكشف. EN: Open Prescriptions or start from appointment details after the consultation.
+    2. AR: اختر المريض/الموعد عند طلب ذلك، واكتب التشخيص وملاحظات الطبيب. EN: Select the patient/appointment when requested, then enter diagnosis and doctor notes.
+    3. AR: أضف كل دواء وحدّد الجرعة والتعليمات والكمية، ثم راجع القائمة. EN: Add each medicine and specify dose, instructions, and quantity, then review the list.
+    4. AR: اضغط زر الحفظ/الإنشاء الظاهر بالواجهة. بعد الحفظ، تصبح الروشتة متاحة للمريض في روشتاتي ويمكنه طباعتها أو طلب الأدوية منها. EN: Select the displayed save/create control. Once saved, the prescription is available in the patient’s My Prescriptions, where it can be printed or used to request medicines.
+User Questions Examples / أمثلة:
+    • "How do I add a prescription?" / "إزاي أضيف روشتة؟"
+AI Answer / إجابة جاهزة:
+AR: افتح الروشتات أو تفاصيل الموعد، ثم اختر المريض/الموعد وأدخل التشخيص وملاحظاتك. أضف الأدوية مع الجرعة والتعليمات والكمية ثم احفظ الروشتة. ستظهر للمريض في روشتاتي بعد الحفظ.
+EN: Open Prescriptions or the appointment details, select the patient/appointment, and enter the diagnosis and notes. Add medicines with dose, instructions, and quantity, then save. It will appear for the patient in My Prescriptions.
+Feature Name: Doctor Reviews / تقييمات الطبيب
+Description / الوصف: Shows reviews received by the doctor. Patients can submit a review after a completed appointment. / يعرض تقييمات الطبيب؛ ويستطيع المريض التقييم بعد موعد مكتمل.
+Who Can Use / من يمكنه الاستخدام: Doctor to view; Patient to submit after completed appointment / الطبيب للعرض؛ المريض للتقييم بعد موعد مكتمل.
+Steps / الخطوات:
+    1. AR: للطبيب: افتح التقييمات / Reviews من القائمة لمراجعة التقييمات. EN: Doctor: open Reviews in the sidebar to review feedback.
+    2. AR: للمريض: افتح مواعيدي، وعند موعد مكتمل اضغط تقييم الطبيب / Rate Doctor، وأدخل التقييم والمراجعة ثم أرسلها. EN: Patient: open My Appointments; for a completed appointment select Rate Doctor, enter rating/review, and submit.
+
+5. Pharmacy Documentation / دليل الصيدلية
+Feature Name: Pharmacy Registration and Verification / تسجيل الصيدلية وتوثيقها
+Description / الوصف: Registers a pharmacy, saves business/location details, and submits verification documents. / يسجل الصيدلية ويحفظ بيانات النشاط والموقع ويرسل مستندات التحقق.
+Who Can Use / من يمكنه الاستخدام: Guest registering as Pharmacy / زائر يسجل كصيدلية.
+Steps / الخطوات:
+    1. AR: من إنشاء حساب اختر صيدلية / Pharmacy وأكمل التسجيل وOTP. EN: On Sign Up, select Pharmacy and complete registration and OTP.
+    2. AR: افتح أكمل ملف الصيدلية / Complete Pharmacy Profile. أدخل الاسم، الاتصال، العنوان، المحافظة والمدينة، ومعلومات الفتح وساعات العمل؛ يمكن إضافة صورة. EN: Open Complete Pharmacy Profile. Enter name, contact, address, governorate/city, opening and working-hour information; a photo can be added.
+    3. AR: ارفع الوثائق المطلوبة في الواجهة مثل صورة الترخيص وبطاقة هوية الصيدلي، ثم احفظ وأرسل التحقق. EN: Upload the UI-required documents such as license image and pharmacist ID card, then save and submit verification.
+    4. AR: يبقى التحقق للمراجعة الإدارية حتى القبول أو الرفض. EN: Verification remains under admin review until approved or rejected.
+Feature Name: Pharmacy Dashboard and Status / لوحة الصيدلية وحالتها
+Description / الوصف: Provides summary metrics and controls whether the pharmacy is open or closed. / يعرض ملخص الإحصاءات ويتحكم في حالة فتح أو غلق الصيدلية.
+Who Can Use / من يمكنه الاستخدام: Pharmacy / صيدلية.
+Steps / الخطوات:
+    1. AR: افتح الملخص / Overview لرؤية أرقام الطلبات والمخزون والتنبيهات والتقييمات حسب البيانات المتاحة. EN: Open Overview to see order, inventory, alert, and review metrics based on available data.
+    2. AR: من الشريط العلوي استخدم مفتاح مفتوح/مغلق / Open/Closed لتحديث حالة استقبال الطلبات. EN: In the top bar, use the Open/Closed toggle to update order-acceptance status.
+    3. AR: استخدم الجرس لقراءة الإشعارات أو تحديد الكل كمقروء / Mark all as read. EN: Use the bell to read notifications or Mark all as read.
+Current boundary / حد حالي: The current pharmacy UI does not include employee/staff management; do not describe a staff-management workflow. / لا يوجد حالياً قسم لإدارة الموظفين في واجهة الصيدلية.
+Feature Name: Inventory Management / إدارة المخزون
+Description / الوصف: Lists pharmacy medicines, supports adding/editing/removing stock records, barcode lookup, and low-stock visibility. / يعرض أدوية الصيدلية ويدعم إضافة وتعديل وحذف سجلات المخزون والبحث بالباركود ومتابعة النقص.
+Who Can Use / من يمكنه الاستخدام: Pharmacy / صيدلية.
+Steps / الخطوات:
+    1. AR: افتح المخزون / Inventory. استخدم البحث وفلتر الحالة لمراجعة العناصر المتاحة أو المنخفضة أو غير المتاحة. EN: Open Inventory. Use search and status filters to review in-stock, low-stock, or out-of-stock items.
+    2. AR: اضغط إضافة دواء / Add Medicine لإضافة دواء وسعره وكميته والبيانات المطلوبة، أو استخدم خيار Barcode عند توفره للبحث عن الدواء وإضافته. EN: Select Add Medicine to add a medicine, price, quantity, and required data, or use Barcode where available to look up and add it.
+    3. AR: افتح تعديل / Edit بجوار عنصر لتحديث السعر أو الكمية أو البيانات، ثم احفظ. استخدم حذف / Delete لإزالة سجل غير مطلوب. EN: Open Edit for an item to update price, quantity, or data, then save. Use Delete to remove an unwanted listing.
+    4. AR: راقب مؤشرات Low Stock / مخزون منخفض وOut of Stock / نفد المخزون في المخزون والملخص. EN: Monitor Low Stock and Out of Stock indicators in Inventory and Overview.
+User Questions Examples / أمثلة:
+    • "How do I update medicine quantity?" / "إزاي أعدّل كمية الدواء؟"
+    • "Where are low-stock alerts?" / "فين تنبيهات نقص المخزون؟"
+AI Answer / إجابة جاهزة:
+AR: افتح المخزون وابحث عن الدواء، ثم استخدم تعديل لتغيير الكمية أو السعر واحفظ. ستظهر العناصر ذات الكمية المنخفضة بحالة مخزون منخفض، ويمكن متابعتها أيضاً من ملخص لوحة الصيدلية.
+EN: Open Inventory, find the medicine, then use Edit to change quantity or price and save. Low-quantity items are marked Low Stock and can also be monitored from the pharmacy overview.
+Feature Name: Pharmacy Order Processing / استقبال وإدارة طلبات الصيدلية
+Description / الوصف: Lets the pharmacy receive an order and move it through allowed fulfillment states. / يتيح للصيدلية استقبال الطلب وتحريكه عبر حالات التنفيذ المسموح بها.
+Who Can Use / من يمكنه الاستخدام: Pharmacy / صيدلية.
+Steps / الخطوات:
+    1. AR: افتح الطلبات / Orders. استخدم البحث وفلاتر الحالة ثم اضغط عرض / View لفتح تفاصيل طلب محدد. EN: Open Orders. Use search/status filters, then select View to open an order.
+    2. AR: في حالة Pending اضغط قبول الطلب / Accept Order أو إلغاء الطلب / Cancel Order. EN: When status is Pending, select Accept Order or Cancel Order.
+    3. AR: بعد القبول اضغط بدء التجهيز / Start Preparing لتصبح الحالة Preparing. EN: After acceptance, select Start Preparing to change it to Preparing.
+    4. AR: إذا كان التنفيذ Pickup، بعد التجهيز اضغط جاهز للاستلام / Ready for Pickup. إذا كان Delivery، اضغط الإجراء الذي ينقل الطلب إلى OutForDelivery. EN: For Pickup, after preparing select Ready for Pickup. For Delivery, use the action that moves the order to OutForDelivery.
+    5. AR: من حالة ReadyForPickup أو OutForDelivery استخدم إجراء الإتمام المتاح لتسجيل التسليم Delivered. EN: From ReadyForPickup or OutForDelivery, use the available completion action to record Delivered.
+Important rule / قاعدة مهمة: Do not claim that a pharmacy can skip states. The current detail page presents actions based on the order’s current state. / لا تقل إنه يمكن تخطي الحالات؛ الصفحة تعرض الإجراءات بناءً على الحالة الحالية فقط.
+User Questions Examples / أمثلة:
+    • "How does the pharmacy accept an order?" / "إزاي الصيدلية تقبل طلب؟"
+    • "How do I mark an order as out for delivery?" / "إزاي أخلي الطلب خرج للتوصيل؟"
+AI Answer / إجابة جاهزة:
+AR: من الطلبات افتح تفاصيل الطلب. إذا كان Pending اضغط قبول الطلب، وبعدها بدء التجهيز. لطلب توصيل، بعد التجهيز استخدم الإجراء الذي ينقله إلى OutForDelivery. ولطلب استلام استخدم جاهز للاستلام. حدّث الحالة بالترتيب الذي تعرضه الصفحة.
+EN: In Orders, open the order details. If it is Pending, select Accept Order, then Start Preparing. For delivery, after preparing use the action that moves it to OutForDelivery. For pickup, use Ready for Pickup. Update statuses in the order presented by the page.
+Feature Name: Pharmacy Prescriptions, Customers, Delivery, Reviews, Reports, Profile and Settings / روشتات وعملاء وتوصيل وتقييمات وتقارير وملف الصيدلية
+Description / الوصف: Additional pharmacy navigation areas support reviewing prescription requests, customers, delivery context, reviews, CSV reporting, profile, and settings. / الأقسام الإضافية تدعم مراجعة طلبات الروشتات والعملاء وسياق التوصيل والتقييمات والتقارير والملف والإعدادات.
+Who Can Use / من يمكنه الاستخدام: Pharmacy / صيدلية.
+Steps / الخطوات:
+    1. AR: افتح الروشتات / Prescriptions لعرض الروشتات المرتبطة بالصيدلية واستخدم فلاتر الحالة والإجراءات التي تظهر لكل روشتة لتحديث حالتها. EN: Open Prescriptions to view pharmacy-associated prescriptions; use status filters and the actions shown for each prescription to update it.
+    2. AR: افتح العملاء / Customers للبحث ومراجعة عملاء الطلبات. EN: Open Customers to search and review order customers.
+    3. AR: افتح التوصيل / Delivery لمراجعة مهام التوصيل وحالتها وحالة المندوبين كما تعرضها الصفحة. EN: Open Delivery to review delivery tasks, their status, and courier status as displayed.
+    4. AR: افتح التقييمات / Reviews لمراجعة تقييمات الصيدلية. افتح التقارير / Reports للاطلاع على ملخصات المخزون/الأداء واستخدم تصدير CSV / Export CSV عند توفر الزر. EN: Open Reviews to review pharmacy feedback. Open Reports for inventory/performance summaries and use Export CSV when shown.
+    5. AR: استخدم الملف الشخصي / Profile والإعدادات / Settings لمراجعة وتحديث بيانات الصيدلية المتاحة بالواجهة. EN: Use Profile and Settings to review and update pharmacy details available in the UI.
+
+6. Admin Documentation / دليل الإدارة
+Feature Name: Admin Dashboard and Global Controls / لوحة الإدارة والتحكم العام
+Description / الوصف: Shows platform-level statistics, pending verification counts, system activity, and administrative navigation. / تعرض إحصاءات المنصة والتحققات المعلقة والنشاط والتنقل الإداري.
+Who Can Use / من يمكنه الاستخدام: Admin only / المدير فقط.
+Steps / الخطوات:
+    1. AR: افتح لوحة الإدارة / Admin Overview من /admin. راجع البطاقات والرسوم والإشعارات/الحالات المعروضة. EN: Open Admin Overview at /admin. Review displayed cards, charts, notifications/statuses.
+    2. AR: استخدم القائمة الجانبية للوصول إلى المستخدمين والأطباء والصيدليات والأدوية والمواعيد والطلبات والمقالات والتقييمات والبلاغات وبيانات القوائم والإعدادات. EN: Use the sidebar for users, doctors, pharmacies, medicines, appointments, orders, articles, reviews, reports, lookup data, and settings.
+Feature Name: User Management / إدارة المستخدمين
+Description / الوصف: Lists users and supports create, edit, role change, activate/suspend, archive, bulk actions, activity viewing, session revocation, and export. / يعرض المستخدمين ويدعم الإنشاء والتعديل والأدوار والتفعيل/التعليق والأرشفة والإجراءات الجماعية والنشاط وإلغاء الجلسات والتصدير.
+Who Can Use / من يمكنه الاستخدام: Admin / مدير.
+Steps / الخطوات:
+    1. AR: افتح المستخدمون / Users. استخدم البحث وفلاتر الحالة والتحديد الجماعي. EN: Open Users. Use search, status filters, and bulk selection.
+    2. AR: اضغط إضافة مستخدم / Add User لإنشاء مستخدم، أو تعديل / Edit لتغيير البيانات والأدوار. EN: Select Add User to create a user, or Edit to change details and roles.
+    3. AR: استخدم تفعيل / Activate أو تعليق / Suspend للحالة، وأرشفة / Archive للحذف المنطقي بعد تأكيد الحوار. EN: Use Activate or Suspend for status, and Archive for soft removal after dialog confirmation.
+    4. AR: افتح عرض / View لمراجعة النشاط، ويمكن استخدام إلغاء الجلسات / Revoke Sessions عند الحاجة. استخدم تصدير / Export لتنزيل البيانات. EN: Open View for activity, and use Revoke Sessions when needed. Use Export to download data.
+Feature Name: Doctor and Pharmacy Administration / إدارة الأطباء والصيدليات
+Description / الوصف: Manages provider records, verification decisions, status, featured state, profile updates, archive, activity, and export. / يدير ملفات مقدمي الخدمة والتحقق والحالة والظهور المميز والتحديث والأرشفة والنشاط والتصدير.
+Who Can Use / من يمكنه الاستخدام: Admin / مدير.
+Steps / الخطوات:
+    1. AR: افتح الأطباء / Doctors أو الصيدليات / Pharmacies. ابحث أو فلتر الحالة. EN: Open Doctors or Pharmacies. Search or filter by status.
+    2. AR: افتح السجل لمراجعة البيانات والنشاط. في التحققات المعلقة استخدم قبول / Approve أو رفض / Reject، وأضف سبب الرفض عندما تطلبه الواجهة. EN: Open a record to review data/activity. For pending verification, use Approve or Reject, adding the rejection reason when the UI asks.
+    3. AR: استخدم إجراءات الحالة لتفعيل/تعليق الحساب، وإجراء مميز / Feature للتحكم في الظهور المميز، وأرشفة / Archive عند الحاجة. EN: Use status actions to activate/suspend, Feature to control featured visibility, and Archive when needed.
+    4. AR: استخدم زر التصدير في كل صفحة لتصدير القائمة. EN: Use the export button on each page to export the list.
+Feature Name: Medicine, Specialty, and Location Lookup Management / إدارة الأدوية والتخصصات وبيانات الموقع
+Description / الوصف: Maintains the medicine catalogue and lookup data for specialties, governorates, and cities. / يدير كتالوج الأدوية وبيانات التخصصات والمحافظات والمدن.
+Who Can Use / من يمكنه الاستخدام: Admin / مدير.
+Steps / الخطوات:
+    1. AR: افتح الأدوية / Medicines لإضافة دواء أو فتح تعديل / Edit لتعديل بياناته. استخدم أرشفة / Archive أو استعادة / Restore بدلاً من افتراض حذف نهائي؛ يوجد إجراء حذف فقط حيث تعرضه الواجهة. EN: Open Medicines to add one or use Edit to modify it. Use Archive or Restore rather than assuming permanent deletion; use delete only where the UI provides it.
+    2. AR: استخدم التحديد الجماعي للأرشفة/الاستعادة عند توفره، وتصدير / Export لتصدير القائمة. EN: Use bulk archive/restore where available and Export to download the list.
+    3. AR: افتح بيانات القوائم / Lookups لإضافة وتعديل وأرشفة/استعادة التخصصات والمحافظات والمدن. أضف المدينة من المحافظة المناسبة. EN: Open Lookups to add, edit, archive/restore specialties, governorates, and cities. Add a city under its appropriate governorate.
+Feature Name: Appointment and Order Supervision / الإشراف على المواعيد والطلبات
+Description / الوصف: Lets admin filter, inspect, update status, view related entities, and export appointments/orders. / يتيح للمدير فلترة وفحص وتحديث حالة المواعيد والطلبات ورؤية الكيانات المرتبطة وتصديرها.
+Who Can Use / من يمكنه الاستخدام: Admin / مدير.
+Steps / الخطوات:
+    1. AR: افتح المواعيد / Appointments أو الطلبات / Orders، ثم استخدم البحث والفلاتر. EN: Open Appointments or Orders, then use search and filters.
+    2. AR: اضغط عرض / View لمراجعة التفاصيل. في الموعد: يمكن تأكيد المعلق، إتمام المؤكد، أو إلغاء المعلق/المؤكد من الإجراءات المعروضة. EN: Select View for details. For appointments: the displayed actions can confirm pending, complete confirmed, or cancel pending/confirmed.
+    3. AR: في الطلب، اختر تغيير الحالة من الإجراءات المتاحة ثم أكد الحوار. EN: For an order, select an available status change, then confirm the dialog.
+    4. AR: استخدم الروابط السريعة في التفاصيل لفتح حساب المريض أو ملف الطبيب/الصيدلية أو السجلات المرتبطة، ثم استخدم تصدير / Export عند الحاجة. EN: Use detail quick links to open the patient, doctor/pharmacy, or related records, then use Export when needed.
+Feature Name: Articles, Reviews, Reports, and Settings / المقالات والتقييمات والبلاغات والإعدادات
+Description / الوصف: Moderates content and feedback, resolves reports, reviews audit logs/analytics, and manages platform settings. / يشرف على المحتوى والتقييمات ويعالج البلاغات ويعرض سجل التدقيق والتحليلات ويدير إعدادات المنصة.
+Who Can Use / من يمكنه الاستخدام: Admin / مدير.
+Steps / الخطوات:
+    1. AR: في المقالات / Articles استخدم عرض التفاصيل والتعديل والنشر/إلغاء النشر والقبول أو الرفض والحذف أو الأرشفة وفق الأزرار الظاهرة. EN: In Articles, use view, edit, publish/unpublish, approve/reject, delete, or archive according to visible controls.
+    2. AR: في التقييمات / Reviews استخدم القبول أو الإخفاء أو الأرشفة أو الحذف وفق الإجراء المتاح لكل تقييم. EN: In Reviews, use approve, hide, archive, or delete as available for each review.
+    3. AR: في البلاغات / Reports افتح البلاغ، راجع الكيان والسياق، وأدخل معالجة/ملاحظة ثم استخدم حل البلاغ / Resolve. استخدم سجل التدقيق لمراجعة النشاط. EN: In Reports, open the report, review entity/context, add resolution/note, and select Resolve. Use audit logs to review activity.
+    4. AR: في الإعدادات / Settings تنقل بين التبويبات، عدّل القيم المسموح بها، ثم استخدم حفظ / Save أو إلغاء / Cancel. EN: In Settings, switch tabs, edit permitted values, then use Save or Cancel.
+
+7. Public Content, Notifications, and AI Consultation Screen / المحتوى العام والإشعارات وشاشة استشارة AI
+Feature Name: Articles / المقالات
+Description / الوصف: Public health-content directory with search, detail modal, and load-more. / دليل للمحتوى الصحي العام مع البحث والتفاصيل وتحميل المزيد.
+Who Can Use / من يمكنه الاستخدام: Everyone / الجميع.
+Steps / الخطوات:
+    1. AR: افتح المقالات / Articles، واكتب في البحث أو اختر المقالة المميزة/أي بطاقة. EN: Open Articles, search, or select a featured/article card.
+    2. AR: اضغط قراءة المزيد / Read More لفتح تفاصيل المقال، واستخدم الإغلاق للعودة إلى القائمة. EN: Select Read More to open article details, then close to return.
+    3. AR: اضغط تحميل المزيد / Load More عند وجوده لجلب مقالات إضافية. EN: Select Load More when present to fetch more articles.
+Feature Name: Notifications / الإشعارات
+Description / الوصف: Shows user notifications and allows marking one or all as read. / يعرض إشعارات المستخدم ويسمح بتعليم إشعار أو الكل كمقروء.
+Who Can Use / من يمكنه الاستخدام: Signed-in users where the notification menu appears / المستخدمون المسجلون في الأماكن التي تظهر فيها قائمة الإشعارات.
+Steps / الخطوات:
+    1. AR: اضغط جرس الإشعارات في الشريط العلوي. EN: Select the notification bell in the top bar.
+    2. AR: اضغط إشعاراً غير مقروء لتمييزه كمقروء، أو اضغط تحديد الكل كمقروء / Mark all as read. EN: Select an unread notification to mark it read, or select Mark all as read.
+Feature Name: AI Consultation Page (Current UI) / صفحة استشارة AI (الواجهة الحالية)
+Description / الوصف: The /ai-consultation page currently provides a chat-style interface, suggestions, optional image attachment preview, and local chat history for signed-in users. Its current reply behavior is sample/static UI behavior; it must not be represented as a deployed diagnostic or medication-consultation service. / صفحة المحادثة الحالية توفر واجهة دردشة واقتراحات ومعاينة مرفق صورة وسجل محادثات محلياً للمستخدم المسجل. الردود الحالية تجريبية/ثابتة في الواجهة وليست خدمة تشخيص أو استشارات دوائية منشورة.
+Who Can Use / من يمكنه الاستخدام: Everyone can open it; signed-in users retain local chat history. / الجميع يمكنهم فتحها؛ المستخدم المسجل يحتفظ بسجل محادثة محلي.
+Steps / الخطوات:
+    1. AR: افتح AI Consultation من الرابط أو زر المحادثة. اكتب رسالة أو اختر اقتراحاً؛ يمكن إرفاق صورة لمعاينتها. EN: Open AI Consultation from its link or chat button. Type a message or choose a suggestion; an image can be attached for preview.
+    2. AR: اضغط إرسال. يمكن بدء محادثة جديدة أو فتح المحادثات الأخيرة عند تسجيل الدخول. EN: Send the message. You can start a new chat or open recent chats when signed in.
+AI Answer / إجابة جاهزة عند سؤال “هل تعطون تشخيصاً؟”
+AR: صفحة AI الحالية واجهة محادثة تجريبية وليست بديلاً عن طبيب ولا تقدّم تشخيصاً أو وصفة أو جرعات علاجية شخصية. استخدمها للمساعدة داخل المنصة، ولأي عرض صحي مقلق تواصل مع طبيب أو خدمة طوارئ.
+EN: The current AI page is a chat-style interface and is not a substitute for a doctor; it does not provide diagnoses, prescriptions, or personalized doses. Use it for platform assistance, and contact a doctor or emergency service for concerning symptoms.
+
+8. Error Handling and Ready Responses / معالجة الأخطاء والردود الجاهزة
+Problem: Cannot sign in / لا أستطيع تسجيل الدخول
+Possible reasons / الأسباب المحتملة: Wrong email/password, email not verified, inactive/suspended account, or network/API error. / بريد أو كلمة مرور خاطئة، بريد غير موثق، حساب معطل/معلق، أو مشكلة اتصال.
+AI Response / إجابة المساعد:
+AR: تأكد من البريد وكلمة المرور ثم حاول مرة أخرى. إن نسيت كلمة المرور استخدم نسيت كلمة المرور؟. إن كنت أنشأت الحساب حديثاً، أكمل رمز OTP من البريد. إذا استمر الخطأ أو كان الحساب معلقاً، تواصل مع الدعم.
+EN: Check your email and password and try again. If you forgot it, use Forgot Password?. If the account is new, complete the email OTP. If the error continues or the account is suspended, contact support.
+Problem: Cannot complete profile / لا أستطيع إكمال الملف
+Possible reasons / الأسباب المحتملة: A required field is empty, date/phone is invalid, upload failed, or server connection failed. / حقل مطلوب فارغ أو تاريخ/هاتف غير صحيح أو فشل الرفع أو الاتصال.
+AI Response / إجابة المساعد:
+AR: راجع الحقول المعلّمة، خصوصاً الاسم والهاتف وتاريخ الميلاد للمريض، أو بيانات النشاط والمستندات لمقدم الخدمة. أعد محاولة رفع الصورة/المستند بعد التأكد من الاتصال.
+EN: Review required fields—especially name, phone, and date of birth for patients, or business/professional data and documents for providers. Retry the image/document upload after checking your connection.
+Problem: Cannot book an appointment / لا أستطيع حجز موعد
+Possible reasons / الأسباب المحتملة: Not signed in as a patient, incomplete booking fields, no available slots, clinic/doctor unavailable, or the selected slot was taken. / غير مسجل كمريض، بيانات ناقصة، لا توجد مواعيد، الطبيب/العيادة غير متاحين، أو تم حجز الموعد المختار.
+AI Response / إجابة المساعد:
+AR: سجّل الدخول بحساب مريض، وأدخل الاسم والهاتف، ثم اختر يوماً ووقتاً متاحين. إذا ظهرت رسالة عدم وجود مواعيد، جرّب طبيباً أو عيادة أخرى أو ارجع لاحقاً؛ لا يوجد زر لإدخال وقت غير متاح يدوياً.
+EN: Sign in with a patient account, enter name and phone, and choose an available day/time. If no slots are shown, try another doctor/clinic or return later; unavailable times cannot be entered manually.
+Problem: Booking is pending / الحجز قيد الانتظار
+Possible reasons / الأسباب المحتملة: This is the normal initial state after creation. / هذه حالة البداية الطبيعية بعد إنشاء الموعد.
+AI Response / إجابة المساعد:
+AR: يعني ذلك أن الحجز تم إنشاؤه وينتظر التأكيد. راقب مواعيدي لمعرفة حالته. إذا احتجت إلى تعديل أو إلغاء، تواصل مع العيادة أو الدعم لأن الواجهة الحالية لا توفر ذلك من حساب المريض.
+EN: It means the booking was created and awaits confirmation. Check My Appointments for its status. For a change/cancellation, contact the clinic or support because the current patient UI does not provide that control.
+Problem: Medicine is not found / لا أجد الدواء
+Possible reasons / الأسباب المحتملة: Different spelling/name, catalogue does not contain it, or no pharmacy has it in stock. / اختلاف الاسم أو الكتابة، الدواء غير موجود بالكتالوج، أو لا يتوفر في الصيدليات.
+AI Response / إجابة المساعد:
+AR: جرّب الاسم التجاري أو العلمي أو كتابة جزء من الاسم، وراجع الاقتراحات. إذا لم تظهر نتيجة، فهذا لا يثبت عدم وجود الدواء طبياً؛ يعني فقط أنه غير موجود في نتائج المنصة الحالية. اسأل الصيدلي عن البديل المناسب ولا تغيّر الدواء بنفسك.
+EN: Try the brand name, generic name, or part of the name and check suggestions. No result does not prove the medicine does not exist medically; it only means it is absent from current platform results. Ask a pharmacist about a suitable alternative and do not switch medicines on your own.
+Problem: Cannot place medicine order / لا أستطيع إتمام طلب الدواء
+Possible reasons / الأسباب المحتملة: User not signed in, cart is empty, contact fields missing, delivery address missing for delivery, pharmacy/item unavailable, or checkout error. / المستخدم غير مسجل، السلة فارغة، بيانات التواصل ناقصة، عنوان التوصيل ناقص، الصيدلية/الصنف غير متاح، أو خطأ في الإتمام.
+AI Response / إجابة المساعد:
+AR: تأكد أن السلة تحتوي على دواء، واختر توصيل أو استلام. للتوصيل أدخل الاسم والهاتف والعنوان، ثم أعد المحاولة. إذا فشل الطلب بعد ذلك، راجع توفر الصيدلية أو جرّب صيدلية أخرى.
+EN: Make sure the cart has an item and choose Delivery or Pickup. For delivery, enter name, phone, and address, then retry. If it still fails, check pharmacy availability or try another pharmacy.
+Problem: Pharmacy cannot update an order / الصيدلية لا تستطيع تحديث الطلب
+Possible reasons / الأسباب المحتملة: Trying to use an action not allowed for the current status, session/role issue, or connection error. / محاولة إجراء غير مسموح للحالة الحالية، مشكلة صلاحية/جلسة، أو اتصال.
+AI Response / إجابة المساعد:
+AR: افتح تفاصيل الطلب وتحقق من حالته الحالية. اتبع الأزرار المتاحة بالتسلسل: Pending → Accepted → Preparing → ReadyForPickup أو OutForDelivery → Delivered. لا يمكن تخطي حالة عبر الواجهة.
+EN: Open order details and check its current status. Follow the available sequence: Pending → Accepted → Preparing → ReadyForPickup or OutForDelivery → Delivered. The UI does not allow skipping states.
+Problem: Verification was rejected or remains pending / التحقق مرفوض أو ما زال معلقاً
+Possible reasons / الأسباب المحتملة: Documents are incomplete/unclear, submitted information needs review, or admin has not processed it yet. / مستندات ناقصة أو غير واضحة، البيانات تحتاج مراجعة، أو لم تعالجها الإدارة بعد.
+AI Response / إجابة المساعد:
+AR: راجع سبب الرفض إن ظهر، وحدّث البيانات أو المستندات المطلوبة ثم أعد الإرسال وفق ما تسمح به الواجهة. إذا كانت الحالة معلقة فقط، فهي بانتظار مراجعة الإدارة ولا تعني القبول أو الرفض بعد.
+EN: Review the rejection reason if shown, update the required data/documents, and resubmit as the UI allows. If the status is only pending, it awaits admin review and is neither approved nor rejected yet.
+Problem: User cannot see a prescription / لا أرى الروشتة
+Possible reasons / الأسباب المحتملة: Appointment is not completed, doctor has not created/saved the prescription, wrong account, or loading error. / الموعد غير مكتمل، الطبيب لم ينشئ/يحفظ الروشتة، الحساب خاطئ، أو خطأ تحميل.
+AI Response / إجابة المساعد:
+AR: افتح روشتاتي بالحساب الذي حجز الموعد. الروشتات تظهر بعد إتمام الموعد وحفظ الطبيب لها. إذا كان الموعد مكتملًا ولا تظهر الروشتة، أعد تحميل الصفحة ثم تواصل مع العيادة أو الدعم.
+EN: Open My Prescriptions using the account that booked the appointment. Prescriptions appear after the appointment is completed and the doctor saves them. If the appointment is completed and it is still missing, reload and contact the clinic or support.
+
+9. Dataset Metadata Recommendation / توصية بيانات التحويل للـDataset
+Use one feature block as one document/chunk with metadata such as:
+استخدم كل Feature كوحدة مستقلة مع بيانات وصفية مثل:
+{
+  "id": "patient.book_doctor_appointment",
+  "title_ar": "حجز موعد طبيب",
+  "title_en": "Book a Doctor Appointment",
+  "roles": ["patient"],
+  "routes": ["/doctors", "/doctors/:id", "/patient/appointments"],
+  "intent_examples": ["ازاي احجز دكتور؟", "How do I book a doctor?"],
+  "answer_language": "ar+en",
+  "source_of_truth": "frontend_and_backend_current_implementation",
+  "safety_tags": ["health-platform", "not-medical-advice"]
+}
+Maintenance rule / قاعدة التحديث: Update this knowledge base whenever a route, visible button, role permission, order state, or medical-AI capability changes. Always remove limitation notes only after the corresponding user-facing workflow is actually released.
+قاعدة التحديث: حدّث الدليل عند تغيير أي مسار أو زر أو صلاحية أو حالة طلب أو قدرات AI الطبية. لا تحذف قيود عدم التوفر إلا بعد إطلاق الواجهة الفعلية للميزة.
+

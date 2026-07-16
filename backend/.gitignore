@@ -1,0 +1,23 @@
+## Build outputs
+bin/
+obj/
+
+## Secrets & Environment-specific settings – NEVER commit these
+# The base appsettings.json contains only CHANGE_ME placeholders (safe to commit).
+# Real secrets go into the files below and are loaded by ASP.NET Core automatically.
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+
+## Data-protection keys (generated at runtime)
+.keys/
+
+## IDE / OS
+.vs/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log

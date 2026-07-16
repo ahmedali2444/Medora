@@ -1,0 +1,487 @@
+symptom_id,symptom_name,synonyms,source_count
+sym_00001,abdominal distention,"[""abdominal distention""]",1
+sym_00002,abdominal pain,"[""abdominal pain"", ""belly pain"", ""stomach pain"", ""ألم بطن"", ""وجع بطن""]",3
+sym_00003,abnormal appearing skin,"[""abnormal appearing skin""]",2
+sym_00004,abnormal appearing tongue,"[""abnormal appearing tongue""]",1
+sym_00005,abnormal breathing sounds,"[""abnormal breathing sounds""]",2
+sym_00006,abnormal involuntary movements,"[""abnormal involuntary movements""]",2
+sym_00007,abnormal menstruation,"[""abnormal menstruation""]",2
+sym_00008,abnormal movement of eyelid,"[""abnormal movement of eyelid""]",2
+sym_00009,abnormal size or shape of ear,"[""abnormal size or shape of ear""]",1
+sym_00010,absence of menstruation,"[""absence of menstruation""]",1
+sym_00011,abusing alcohol,"[""abusing alcohol""]",2
+sym_00012,ache all over,"[""ache all over""]",2
+sym_00013,acidity,"[""acidity""]",2
+sym_00014,acne or pimples,"[""acne or pimples""]",2
+sym_00015,acute liver failure,"[""acute liver failure""]",2
+sym_00016,allergic reaction,"[""allergic reaction""]",2
+sym_00017,altered sensorium,"[""altered sensorium""]",2
+sym_00018,ankle pain,"[""ankle pain""]",2
+sym_00019,ankle stiffness or tightness,"[""ankle stiffness or tightness""]",1
+sym_00020,ankle swelling,"[""ankle swelling""]",2
+sym_00021,ankle weakness,"[""ankle weakness""]",1
+sym_00022,anosmia,"[""anosmia"", ""loss of smell""]",2
+sym_00023,antisocial behavior,"[""antisocial behavior""]",2
+sym_00024,anxiety,"[""anxiety""]",2
+sym_00025,anxiety and nervousness,"[""anxiety and nervousness""]",2
+sym_00026,apnea,"[""apnea""]",2
+sym_00027,arm cramps or spasms,"[""arm cramps or spasms""]",1
+sym_00028,arm lump or mass,"[""arm lump or mass""]",2
+sym_00029,arm pain,"[""arm pain""]",2
+sym_00030,arm stiffness or tightness,"[""arm stiffness or tightness""]",2
+sym_00031,arm swelling,"[""arm swelling""]",2
+sym_00032,arm weakness,"[""arm weakness""]",2
+sym_00033,back cramps or spasms,"[""back cramps or spasms""]",2
+sym_00034,back mass or lump,"[""back mass or lump""]",2
+sym_00035,back pain,"[""back pain""]",4
+sym_00036,back stiffness or tightness,"[""back stiffness or tightness""]",2
+sym_00037,back swelling,"[""back swelling""]",1
+sym_00038,back weakness,"[""back weakness""]",1
+sym_00039,bedwetting,"[""bedwetting""]",1
+sym_00040,blackheads,"[""blackheads""]",2
+sym_00041,bladder discomfort,"[""bladder discomfort""]",2
+sym_00042,bladder mass,"[""bladder mass""]",1
+sym_00043,bleeding from ear,"[""bleeding from ear""]",2
+sym_00044,bleeding from eye,"[""bleeding from eye""]",2
+sym_00045,bleeding gums,"[""bleeding gums""]",2
+sym_00046,bleeding in mouth,"[""bleeding in mouth""]",1
+sym_00047,bleeding or discharge from nipple,"[""bleeding or discharge from nipple""]",1
+sym_00048,blindness,"[""blindness""]",2
+sym_00049,blister,"[""blister""]",2
+sym_00050,blood clots during menstrual periods,"[""blood clots during menstrual periods""]",2
+sym_00051,blood in sputum,"[""blood in sputum""]",2
+sym_00052,blood in stool,"[""blood in stool""]",3
+sym_00053,blood in urine,"[""blood in urine""]",2
+sym_00054,bloody stool,"[""bloody stool""]",2
+sym_00055,blurred and distorted vision,"[""blurred and distorted vision""]",2
+sym_00056,bones are painful,"[""bones are painful""]",2
+sym_00057,bowlegged or knock kneed,"[""bowlegged or knock-kneed""]",1
+sym_00058,breathing fast,"[""breathing fast""]",2
+sym_00059,brittle nails,"[""brittle nails""]",2
+sym_00060,bruising,"[""bruising""]",2
+sym_00061,bumps on penis,"[""bumps on penis""]",1
+sym_00062,burning abdominal pain,"[""burning abdominal pain""]",2
+sym_00063,burning chest pain,"[""burning chest pain""]",2
+sym_00064,burning micturition,"[""burning micturition""]",2
+sym_00065,change in skin mole size or color,"[""change in skin mole size or color""]",1
+sym_00066,changes in stool appearance,"[""changes in stool appearance""]",2
+sym_00067,chest pain,"[""chest pain"", ""ألم صدر"", ""وجع صدر""]",4
+sym_00068,chest tightness,"[""chest tightness""]",2
+sym_00069,chills,"[""chills""]",4
+sym_00070,cloudy eye,"[""cloudy eye""]",1
+sym_00071,cold hands and feets,"[""cold hands and feets""]",2
+sym_00072,coma,"[""coma""]",2
+sym_00073,common cold,"[""common cold"", ""زكام""]",1
+sym_00074,congestion,"[""congestion""]",2
+sym_00075,congestion in chest,"[""congestion in chest""]",2
+sym_00076,constipation,"[""constipation""]",4
+sym_00077,continuous feel of urine,"[""continuous feel of urine""]",2
+sym_00078,continuous sneezing,"[""continuous sneezing""]",2
+sym_00079,coryza,"[""coryza""]",2
+sym_00080,cough,"[""cough"", ""سعال"", ""كحة""]",5
+sym_00081,coughing up sputum,"[""coughing up sputum""]",2
+sym_00082,cramps,"[""cramps""]",2
+sym_00083,cramps and spasms,"[""cramps and spasms""]",2
+sym_00084,cross eyed,"[""cross-eyed""]",1
+sym_00085,dark urine,"[""dark urine""]",2
+sym_00086,decreased appetite,"[""decreased appetite""]",2
+sym_00087,decreased heart rate,"[""decreased heart rate""]",3
+sym_00088,dehydration,"[""dehydration""]",2
+sym_00089,delusions or hallucinations,"[""delusions or hallucinations""]",2
+sym_00090,depression,"[""depression""]",4
+sym_00091,depressive or psychotic symptoms,"[""depressive or psychotic symptoms""]",2
+sym_00092,diaper rash,"[""diaper rash""]",2
+sym_00093,diarrhea,"[""diarrhea"", ""إسهال"", ""اسهال""]",3
+sym_00094,diarrhoea,"[""diarrhoea""]",2
+sym_00095,difficulty eating,"[""difficulty eating""]",1
+sym_00096,difficulty in swallowing,"[""difficulty in swallowing""]",3
+sym_00097,difficulty speaking,"[""difficulty speaking""]",2
+sym_00098,diminished hearing,"[""diminished hearing""]",2
+sym_00099,diminished vision,"[""diminished vision""]",2
+sym_00100,discharge in stools,"[""discharge in stools""]",1
+sym_00101,dischromic patches,"[""dischromic patches""]",2
+sym_00102,distention of abdomen,"[""distention of abdomen""]",2
+sym_00103,disturbance of memory,"[""disturbance of memory""]",2
+sym_00104,disturbance of smell or taste,"[""disturbance of smell or taste""]",1
+sym_00105,dizziness,"[""dizziness"", ""دوار"", ""دوخة""]",5
+sym_00106,double vision,"[""double vision""]",2
+sym_00107,drainage in throat,"[""drainage in throat""]",1
+sym_00108,drug abuse,"[""drug abuse""]",2
+sym_00109,dry lips,"[""dry lips""]",1
+sym_00110,dry or flaky scalp,"[""dry or flaky scalp""]",1
+sym_00111,drying and tingling lips,"[""drying and tingling lips""]",2
+sym_00112,ear pain,"[""ear pain""]",2
+sym_00113,early or late onset of menopause,"[""early or late onset of menopause""]",1
+sym_00114,elbow cramps or spasms,"[""elbow cramps or spasms""]",1
+sym_00115,elbow lump or mass,"[""elbow lump or mass""]",1
+sym_00116,elbow pain,"[""elbow pain""]",2
+sym_00117,elbow stiffness or tightness,"[""elbow stiffness or tightness""]",1
+sym_00118,elbow swelling,"[""elbow swelling""]",2
+sym_00119,elbow weakness,"[""elbow weakness""]",1
+sym_00120,emotional symptoms,"[""emotional symptoms""]",1
+sym_00121,enlarged thyroid,"[""enlarged thyroid""]",2
+sym_00122,excessive anger,"[""excessive anger""]",2
+sym_00123,excessive appetite,"[""excessive appetite""]",1
+sym_00124,excessive growth,"[""excessive growth""]",1
+sym_00125,excessive hunger,"[""excessive hunger""]",2
+sym_00126,excessive urination at night,"[""excessive urination at night""]",2
+sym_00127,extra marital contacts,"[""extra marital contacts""]",2
+sym_00128,eye burns or stings,"[""eye burns or stings""]",2
+sym_00129,eye deviation,"[""eye deviation""]",1
+sym_00130,eye moves abnormally,"[""eye moves abnormally""]",1
+sym_00131,eye redness,"[""eye redness""]",2
+sym_00132,eye strain,"[""eye strain""]",1
+sym_00133,eyelid lesion or rash,"[""eyelid lesion or rash""]",2
+sym_00134,eyelid retracted,"[""eyelid retracted""]",1
+sym_00135,eyelid swelling,"[""eyelid swelling""]",2
+sym_00136,facial pain,"[""facial pain""]",2
+sym_00137,fainting,"[""fainting""]",3
+sym_00138,family history,"[""family history""]",2
+sym_00139,fast heart rate,"[""fast heart rate""]",2
+sym_00140,fatigue,"[""fatigue""]",4
+sym_00141,fears and phobias,"[""fears and phobias""]",2
+sym_00142,feeling cold,"[""feeling cold""]",1
+sym_00143,feeling hot,"[""feeling hot""]",1
+sym_00144,feeling hot and cold,"[""feeling hot and cold""]",1
+sym_00145,feeling ill,"[""feeling ill""]",2
+sym_00146,feet turned in,"[""feet turned in""]",1
+sym_00147,fever,"[""fever"", ""حرارة"", ""سخونية""]",4
+sym_00148,flatulence,"[""flatulence""]",1
+sym_00149,flu like syndrome,"[""flu-like syndrome""]",2
+sym_00150,fluid in ear,"[""fluid in ear""]",2
+sym_00151,fluid overload,"[""fluid overload""]",2
+sym_00152,fluid retention,"[""fluid retention""]",2
+sym_00153,flushing,"[""flushing""]",1
+sym_00154,focal weakness,"[""focal weakness""]",3
+sym_00155,foot or toe cramps or spasms,"[""foot or toe cramps or spasms""]",1
+sym_00156,foot or toe lump or mass,"[""foot or toe lump or mass""]",1
+sym_00157,foot or toe pain,"[""foot or toe pain""]",2
+sym_00158,foot or toe stiffness or tightness,"[""foot or toe stiffness or tightness""]",1
+sym_00159,foot or toe swelling,"[""foot or toe swelling""]",2
+sym_00160,foot or toe weakness,"[""foot or toe weakness""]",1
+sym_00161,foreign body sensation in eye,"[""foreign body sensation in eye""]",2
+sym_00162,foul smell of urine,"[""foul smell of urine""]",1
+sym_00163,foul smell ofurine,"[""foul smell ofurine""]",1
+sym_00164,frequent menstruation,"[""frequent menstruation""]",2
+sym_00165,frequent urination,"[""frequent urination""]",2
+sym_00166,frontal headache,"[""frontal headache""]",2
+sym_00167,groin mass,"[""groin mass""]",1
+sym_00168,groin pain,"[""groin pain""]",2
+sym_00169,gum pain,"[""gum pain""]",2
+sym_00170,hand or finger cramps or spasms,"[""hand or finger cramps or spasms""]",1
+sym_00171,hand or finger lump or mass,"[""hand or finger lump or mass""]",2
+sym_00172,hand or finger pain,"[""hand or finger pain""]",2
+sym_00173,hand or finger stiffness or tightness,"[""hand or finger stiffness or tightness""]",2
+sym_00174,hand or finger swelling,"[""hand or finger swelling""]",2
+sym_00175,hand or finger weakness,"[""hand or finger weakness""]",2
+sym_00176,headache,"[""headache"", ""صداع"", ""وجع دماغ""]",5
+sym_00177,heartburn,"[""heartburn""]",2
+sym_00178,heavy menstrual flow,"[""heavy menstrual flow""]",2
+sym_00179,hemoptysis,"[""hemoptysis""]",2
+sym_00180,hesitancy,"[""hesitancy""]",2
+sym_00181,high fever,"[""high fever""]",2
+sym_00182,hip joint pain,"[""hip joint pain""]",2
+sym_00183,hip lump or mass,"[""hip lump or mass""]",1
+sym_00184,hip pain,"[""hip pain""]",2
+sym_00185,hip stiffness or tightness,"[""hip stiffness or tightness""]",2
+sym_00186,hip swelling,"[""hip swelling""]",1
+sym_00187,hip weakness,"[""hip weakness""]",1
+sym_00188,history of alcohol consumption,"[""history of alcohol consumption""]",2
+sym_00189,hoarse voice,"[""hoarse voice""]",2
+sym_00190,hostile behavior,"[""hostile behavior""]",2
+sym_00191,hot flashes,"[""hot flashes""]",2
+sym_00192,hurts to breath,"[""hurts to breath""]",2
+sym_00193,hysterical behavior,"[""hysterical behavior""]",2
+sym_00194,impotence,"[""impotence""]",2
+sym_00195,incontinence of stool,"[""incontinence of stool""]",1
+sym_00196,increased appetite,"[""increased appetite""]",2
+sym_00197,increased heart rate,"[""increased heart rate""]",3
+sym_00198,indigestion,"[""indigestion""]",2
+sym_00199,infant feeding problem,"[""infant feeding problem""]",2
+sym_00200,infant spitting up,"[""infant spitting up""]",1
+sym_00201,infertility,"[""infertility""]",2
+sym_00202,inflammatory nails,"[""inflammatory nails""]",2
+sym_00203,infrequent menstruation,"[""infrequent menstruation""]",1
+sym_00204,insomnia,"[""insomnia""]",2
+sym_00205,intermenstrual bleeding,"[""intermenstrual bleeding""]",2
+sym_00206,internal itching,"[""internal itching""]",2
+sym_00207,involuntary urination,"[""involuntary urination""]",2
+sym_00208,irregular appearing nails,"[""irregular appearing nails""]",2
+sym_00209,irregular appearing scalp,"[""irregular appearing scalp""]",2
+sym_00210,irregular belly button,"[""irregular belly button""]",1
+sym_00211,irregular heartbeat,"[""irregular heartbeat""]",2
+sym_00212,irregular sugar level,"[""irregular sugar level""]",2
+sym_00213,irritability,"[""irritability""]",2
+sym_00214,irritable infant,"[""irritable infant""]",2
+sym_00215,irritation in anus,"[""irritation in anus""]",2
+sym_00216,itchiness of eye,"[""itchiness of eye""]",2
+sym_00217,itching,"[""itching"", ""حكة"", ""هرش""]",3
+sym_00218,itching of scrotum,"[""itching of scrotum""]",1
+sym_00219,itching of skin,"[""itching of skin""]",2
+sym_00220,itching of the anus,"[""itching of the anus""]",2
+sym_00221,itchy ear s,"[""itchy ear(s)""]",2
+sym_00222,itchy eyelid,"[""itchy eyelid""]",1
+sym_00223,itchy scalp,"[""itchy scalp""]",2
+sym_00224,jaundice,"[""jaundice""]",3
+sym_00225,jaw pain,"[""jaw pain""]",1
+sym_00226,jaw swelling,"[""jaw swelling""]",2
+sym_00227,joint pain,"[""joint pain""]",4
+sym_00228,joint stiffness or tightness,"[""joint stiffness or tightness""]",1
+sym_00229,joint swelling,"[""joint swelling""]",1
+sym_00230,kidney mass,"[""kidney mass""]",2
+sym_00231,knee cramps or spasms,"[""knee cramps or spasms""]",1
+sym_00232,knee lump or mass,"[""knee lump or mass""]",1
+sym_00233,knee pain,"[""knee pain""]",4
+sym_00234,knee stiffness or tightness,"[""knee stiffness or tightness""]",2
+sym_00235,knee swelling,"[""knee swelling""]",2
+sym_00236,knee weakness,"[""knee weakness""]",1
+sym_00237,lack of concentration,"[""lack of concentration""]",2
+sym_00238,lack of growth,"[""lack of growth""]",2
+sym_00239,lacrimation,"[""lacrimation""]",2
+sym_00240,leg cramps or spasms,"[""leg cramps or spasms""]",1
+sym_00241,leg lump or mass,"[""leg lump or mass""]",1
+sym_00242,leg pain,"[""leg pain""]",2
+sym_00243,leg stiffness or tightness,"[""leg stiffness or tightness""]",1
+sym_00244,leg swelling,"[""leg swelling""]",2
+sym_00245,leg weakness,"[""leg weakness""]",2
+sym_00246,lethargy,"[""lethargy""]",2
+sym_00247,lip sore,"[""lip sore""]",1
+sym_00248,lip swelling,"[""lip swelling""]",2
+sym_00249,long menstrual periods,"[""long menstrual periods""]",2
+sym_00250,loss of appetite,"[""loss of appetite""]",2
+sym_00251,loss of balance,"[""loss of balance""]",2
+sym_00252,loss of sensation,"[""loss of sensation""]",2
+sym_00253,loss of sex drive,"[""loss of sex drive""]",1
+sym_00254,low back cramps or spasms,"[""low back cramps or spasms""]",1
+sym_00255,low back pain,"[""low back pain""]",2
+sym_00256,low back stiffness or tightness,"[""low back stiffness or tightness""]",1
+sym_00257,low back swelling,"[""low back swelling""]",1
+sym_00258,low back weakness,"[""low back weakness""]",1
+sym_00259,low self esteem,"[""low self-esteem""]",2
+sym_00260,low urine output,"[""low urine output""]",2
+sym_00261,lower abdominal pain,"[""lower abdominal pain""]",2
+sym_00262,lower body pain,"[""lower body pain""]",2
+sym_00263,lump in throat,"[""lump in throat""]",1
+sym_00264,lump or mass of breast,"[""lump or mass of breast""]",1
+sym_00265,lump over jaw,"[""lump over jaw""]",1
+sym_00266,lymphedema,"[""lymphedema""]",1
+sym_00267,malaise,"[""malaise""]",2
+sym_00268,mass in scrotum,"[""mass in scrotum""]",1
+sym_00269,mass on ear,"[""mass on ear""]",1
+sym_00270,mass on eyelid,"[""mass on eyelid""]",2
+sym_00271,mass on vulva,"[""mass on vulva""]",1
+sym_00272,mass or swelling around the anus,"[""mass or swelling around the anus""]",2
+sym_00273,melena,"[""melena""]",2
+sym_00274,mild fever,"[""mild fever""]",2
+sym_00275,mood swings,"[""mood swings""]",2
+sym_00276,mouth dryness,"[""mouth dryness""]",2
+sym_00277,mouth pain,"[""mouth pain""]",2
+sym_00278,mouth ulcer,"[""mouth ulcer""]",2
+sym_00279,movement stiffness,"[""movement stiffness""]",2
+sym_00280,mucoid sputum,"[""mucoid sputum""]",2
+sym_00281,muscle cramps contractures or spasms,"[""muscle cramps, contractures, or spasms""]",1
+sym_00282,muscle pain,"[""muscle pain""]",3
+sym_00283,muscle stiffness or tightness,"[""muscle stiffness or tightness""]",1
+sym_00284,muscle swelling,"[""muscle swelling""]",1
+sym_00285,muscle wasting,"[""muscle wasting""]",2
+sym_00286,muscle weakness,"[""muscle weakness""]",3
+sym_00287,nailbiting,"[""nailbiting""]",1
+sym_00288,nasal congestion,"[""nasal congestion"", ""runny nose"", ""رشح""]",5
+sym_00289,nausea,"[""nausea"", ""غثيان""]",5
+sym_00290,neck cramps or spasms,"[""neck cramps or spasms""]",1
+sym_00291,neck mass,"[""neck mass""]",2
+sym_00292,neck pain,"[""neck pain""]",4
+sym_00293,neck stiffness or tightness,"[""neck stiffness or tightness""]",1
+sym_00294,neck swelling,"[""neck swelling""]",2
+sym_00295,neck weakness,"[""neck weakness""]",1
+sym_00296,nightmares,"[""nightmares""]",1
+sym_00297,nodal skin eruptions,"[""nodal skin eruptions""]",2
+sym_00298,nose deformity,"[""nose deformity""]",1
+sym_00299,nosebleed,"[""nosebleed""]",2
+sym_00300,obesity,"[""obesity""]",2
+sym_00301,obsessions and compulsions,"[""obsessions and compulsions""]",2
+sym_00302,pain behind the eyes,"[""pain behind the eyes""]",2
+sym_00303,pain during bowel movements,"[""pain during bowel movements""]",2
+sym_00304,pain during intercourse,"[""pain during intercourse""]",2
+sym_00305,pain during pregnancy,"[""pain during pregnancy""]",2
+sym_00306,pain in anal region,"[""pain in anal region""]",2
+sym_00307,pain in eye,"[""pain in eye""]",2
+sym_00308,pain in gums,"[""pain in gums""]",2
+sym_00309,pain in testicles,"[""pain in testicles""]",2
+sym_00310,pain of the anus,"[""pain of the anus""]",2
+sym_00311,pain or soreness of breast,"[""pain or soreness of breast""]",1
+sym_00312,painful menstruation,"[""painful menstruation""]",2
+sym_00313,painful sinuses,"[""painful sinuses""]",2
+sym_00314,painful urination,"[""painful urination"", ""حرقان بول""]",3
+sym_00315,painful walking,"[""painful walking""]",2
+sym_00316,pallor,"[""pallor""]",1
+sym_00317,palpitations,"[""palpitations""]",4
+sym_00318,paralysis,"[""paralysis""]",1
+sym_00319,paresthesia,"[""paresthesia""]",2
+sym_00320,passage of gases,"[""passage of gases""]",2
+sym_00321,patches in throat,"[""patches in throat""]",2
+sym_00322,pelvic pain,"[""pelvic pain""]",2
+sym_00323,pelvic pressure,"[""pelvic pressure""]",1
+sym_00324,penile discharge,"[""penile discharge""]",1
+sym_00325,penis pain,"[""penis pain""]",1
+sym_00326,penis redness,"[""penis redness""]",1
+sym_00327,peripheral edema,"[""peripheral edema""]",2
+sym_00328,phlegm,"[""phlegm""]",2
+sym_00329,plugged feeling in ear,"[""plugged feeling in ear""]",2
+sym_00330,polyuria,"[""polyuria""]",3
+sym_00331,poor circulation,"[""poor circulation""]",1
+sym_00332,postpartum problems of the breast,"[""postpartum problems of the breast""]",1
+sym_00333,posture problems,"[""posture problems""]",1
+sym_00334,premature ejaculation,"[""premature ejaculation""]",1
+sym_00335,premenstrual tension or irritability,"[""premenstrual tension or irritability""]",1
+sym_00336,problems during pregnancy,"[""problems during pregnancy""]",2
+sym_00337,problems with movement,"[""problems with movement""]",2
+sym_00338,problems with orgasm,"[""problems with orgasm""]",1
+sym_00339,problems with shape or size of breast,"[""problems with shape or size of breast""]",1
+sym_00340,prognosis,"[""prognosis""]",1
+sym_00341,prominent veins on calf,"[""prominent veins on calf""]",2
+sym_00342,puffy face and eyes,"[""puffy face and eyes""]",2
+sym_00343,pulling at ears,"[""pulling at ears""]",2
+sym_00344,pupils unequal,"[""pupils unequal""]",1
+sym_00345,pus draining from ear,"[""pus draining from ear""]",2
+sym_00346,pus filled pimples,"[""pus filled pimples""]",2
+sym_00347,pus in sputum,"[""pus in sputum""]",1
+sym_00348,pus in urine,"[""pus in urine""]",1
+sym_00349,receiving blood transfusion,"[""receiving blood transfusion""]",2
+sym_00350,receiving unsterile injections,"[""receiving unsterile injections""]",2
+sym_00351,recent pregnancy,"[""recent pregnancy""]",2
+sym_00352,recent weight loss,"[""recent weight loss""]",1
+sym_00353,rectal bleeding,"[""rectal bleeding""]",2
+sym_00354,red sore around nose,"[""red sore around nose""]",2
+sym_00355,red spots over body,"[""red spots over body""]",2
+sym_00356,redness in ear,"[""redness in ear""]",2
+sym_00357,redness in or around nose,"[""redness in or around nose""]",1
+sym_00358,redness of eyes,"[""redness of eyes""]",2
+sym_00359,regurgitation,"[""regurgitation""]",2
+sym_00360,regurgitation 1,"[""regurgitation.1""]",2
+sym_00361,restlessness,"[""restlessness""]",4
+sym_00362,retention of urine,"[""retention of urine""]",3
+sym_00363,rib pain,"[""rib pain""]",2
+sym_00364,ringing in ear,"[""ringing in ear""]",2
+sym_00365,rusty sputum,"[""rusty sputum""]",2
+sym_00366,scanty menstrual flow,"[""scanty menstrual flow""]",1
+sym_00367,scurring,"[""scurring""]",2
+sym_00368,seizures,"[""seizures""]",3
+sym_00369,severe abdominal pain,"[""severe abdominal pain""]",1
+sym_00370,sharp abdominal pain,"[""sharp abdominal pain""]",2
+sym_00371,sharp chest pain,"[""sharp chest pain""]",2
+sym_00372,shivering,"[""shivering""]",2
+sym_00373,shortness of breath,"[""breathlessness"", ""difficulty breathing"", ""shortness of breath"", ""ضيق تنفس"", ""نهجان""]",6
+sym_00374,shoulder cramps or spasms,"[""shoulder cramps or spasms""]",1
+sym_00375,shoulder lump or mass,"[""shoulder lump or mass""]",1
+sym_00376,shoulder pain,"[""shoulder pain""]",2
+sym_00377,shoulder stiffness or tightness,"[""shoulder stiffness or tightness""]",2
+sym_00378,shoulder swelling,"[""shoulder swelling""]",1
+sym_00379,shoulder weakness,"[""shoulder weakness""]",1
+sym_00380,side pain,"[""side pain""]",2
+sym_00381,silver like dusting,"[""silver like dusting""]",2
+sym_00382,sinus congestion,"[""sinus congestion""]",2
+sym_00383,sinus pressure,"[""sinus pressure""]",2
+sym_00384,skin dryness peeling scaliness or roughness,"[""skin dryness, peeling, scaliness, or roughness""]",2
+sym_00385,skin growth,"[""skin growth""]",2
+sym_00386,skin irritation,"[""skin irritation""]",2
+sym_00387,skin lesion,"[""skin lesion""]",2
+sym_00388,skin moles,"[""skin moles""]",2
+sym_00389,skin oiliness,"[""skin oiliness""]",1
+sym_00390,skin on arm or hand looks infected,"[""skin on arm or hand looks infected""]",1
+sym_00391,skin on head or neck looks infected,"[""skin on head or neck looks infected""]",1
+sym_00392,skin on leg or foot looks infected,"[""skin on leg or foot looks infected""]",1
+sym_00393,skin pain,"[""skin pain""]",1
+sym_00394,skin peeling,"[""skin peeling""]",2
+sym_00395,skin rash,"[""skin rash""]",4
+sym_00396,skin swelling,"[""skin swelling""]",2
+sym_00397,sleepiness,"[""sleepiness""]",2
+sym_00398,sleepwalking,"[""sleepwalking""]",1
+sym_00399,slurred speech,"[""slurred speech""]",2
+sym_00400,slurring words,"[""slurring words""]",1
+sym_00401,small dents in nails,"[""small dents in nails""]",2
+sym_00402,smoking problems,"[""smoking problems""]",1
+sym_00403,sneezing,"[""sneezing""]",2
+sym_00404,sore in nose,"[""sore in nose""]",1
+sym_00405,sore throat,"[""sore throat""]",2
+sym_00406,spinning movements,"[""spinning movements""]",2
+sym_00407,spots or clouds in vision,"[""spots or clouds in vision""]",2
+sym_00408,spotting or bleeding during pregnancy,"[""spotting or bleeding during pregnancy""]",2
+sym_00409,spotting urination,"[""spotting urination""]",2
+sym_00410,stiff neck,"[""stiff neck""]",2
+sym_00411,stiffness all over,"[""stiffness all over""]",1
+sym_00412,stomach bleeding,"[""stomach bleeding""]",2
+sym_00413,stomach bloating,"[""stomach bloating""]",2
+sym_00414,stuttering or stammering,"[""stuttering or stammering""]",1
+sym_00415,sunken eyes,"[""sunken eyes""]",2
+sym_00416,suprapubic pain,"[""suprapubic pain""]",2
+sym_00417,sweating,"[""sweating""]",4
+sym_00418,swelled lymph nodes,"[""swelled lymph nodes""]",2
+sym_00419,swelling joints,"[""swelling joints""]",2
+sym_00420,swelling of scrotum,"[""swelling of scrotum""]",2
+sym_00421,swelling of stomach,"[""swelling of stomach""]",2
+sym_00422,swollen abdomen,"[""swollen abdomen""]",1
+sym_00423,swollen blood vessels,"[""swollen blood vessels""]",2
+sym_00424,swollen extremeties,"[""swollen extremeties""]",2
+sym_00425,swollen eye,"[""swollen eye""]",2
+sym_00426,swollen legs,"[""swollen legs""]",2
+sym_00427,swollen lymph nodes,"[""swollen lymph nodes""]",1
+sym_00428,swollen or red tonsils,"[""swollen or red tonsils""]",2
+sym_00429,swollen tongue,"[""swollen tongue""]",1
+sym_00430,symptoms of bladder,"[""symptoms of bladder""]",2
+sym_00431,symptoms of eye,"[""symptoms of eye""]",2
+sym_00432,symptoms of infants,"[""symptoms of infants""]",1
+sym_00433,symptoms of prostate,"[""symptoms of prostate""]",2
+sym_00434,symptoms of the face,"[""symptoms of the face""]",2
+sym_00435,symptoms of the kidneys,"[""symptoms of the kidneys""]",2
+sym_00436,symptoms of the scrotum and testes,"[""symptoms of the scrotum and testes""]",2
+sym_00437,temper problems,"[""temper problems""]",2
+sym_00438,thirst,"[""thirst""]",1
+sym_00439,throat feels tight,"[""throat feels tight""]",1
+sym_00440,throat irritation,"[""throat irritation""]",3
+sym_00441,throat redness,"[""throat redness""]",1
+sym_00442,throat swelling,"[""throat swelling""]",3
+sym_00443,tongue bleeding,"[""tongue bleeding""]",1
+sym_00444,tongue lesions,"[""tongue lesions""]",1
+sym_00445,tongue pain,"[""tongue pain""]",1
+sym_00446,too little hair,"[""too little hair""]",1
+sym_00447,toothache,"[""toothache""]",2
+sym_00448,toxic look typhos,"[""toxic look (typhos)""]",2
+sym_00449,ulcers on tongue,"[""ulcers on tongue""]",2
+sym_00450,underweight,"[""underweight""]",1
+sym_00451,unpredictable menstruation,"[""unpredictable menstruation""]",2
+sym_00452,unsteadiness,"[""unsteadiness""]",2
+sym_00453,unusual color or odor to urine,"[""unusual color or odor to urine""]",2
+sym_00454,unwanted hair,"[""unwanted hair""]",1
+sym_00455,upper abdominal pain,"[""upper abdominal pain""]",2
+sym_00456,uterine contractions,"[""uterine contractions""]",2
+sym_00457,vaginal bleeding after menopause,"[""vaginal bleeding after menopause""]",1
+sym_00458,vaginal discharge,"[""vaginal discharge""]",2
+sym_00459,vaginal dryness,"[""vaginal dryness""]",1
+sym_00460,vaginal itching,"[""vaginal itching""]",2
+sym_00461,vaginal pain,"[""vaginal pain""]",2
+sym_00462,vaginal redness,"[""vaginal redness""]",2
+sym_00463,visual disturbances,"[""visual disturbances""]",2
+sym_00464,vomiting,"[""vomiting"", ""ترجيع"", ""قيء""]",5
+sym_00465,vomiting blood,"[""vomiting blood""]",3
+sym_00466,vulvar irritation,"[""vulvar irritation""]",1
+sym_00467,vulvar sore,"[""vulvar sore""]",1
+sym_00468,warts,"[""warts""]",2
+sym_00469,watering from eyes,"[""watering from eyes""]",2
+sym_00470,weakness,"[""weakness""]",2
+sym_00471,weakness in limbs,"[""weakness in limbs""]",2
+sym_00472,weakness of one body side,"[""weakness of one body side""]",2
+sym_00473,weight gain,"[""weight gain""]",4
+sym_00474,weight loss,"[""weight loss""]",2
+sym_00475,wheezing,"[""wheezing""]",2
+sym_00476,white discharge from eye,"[""white discharge from eye""]",2
+sym_00477,wrinkles on skin,"[""wrinkles on skin""]",1
+sym_00478,wrist lump or mass,"[""wrist lump or mass""]",1
+sym_00479,wrist pain,"[""wrist pain""]",2
+sym_00480,wrist stiffness or tightness,"[""wrist stiffness or tightness""]",1
+sym_00481,wrist swelling,"[""wrist swelling""]",2
+sym_00482,wrist weakness,"[""wrist weakness""]",1
+sym_00483,yellow crust ooze,"[""yellow crust ooze""]",2
+sym_00484,yellow urine,"[""yellow urine""]",2
+sym_00485,yellowing of eyes,"[""yellowing of eyes""]",2
+sym_00486,yellowish skin,"[""yellowish skin""]",2

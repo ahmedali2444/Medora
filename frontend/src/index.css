@@ -1,0 +1,276 @@
+@import "tailwindcss";
+
+/* ── Medora Design Tokens ── */
+:root {
+  /* Primary Teal Scale */
+  --p-50:  #e6f7f7;
+  --p-100: #b3e8e8;
+  --p-200: #80d9d9;
+  --p-300: #4dcaca;
+  --p-400: #1abbbb;
+  --p-500: #14b8a6;   /* ⭐ Main primary */
+  --p-600: #119a8a;
+  --p-700: #0e7c6e;
+  --p-800: #0b5e52;
+  --p-900: #084036;
+
+  /* Medical extras */
+  --medical-blue:  #0ea5e9;
+  --medical-teal:  #14b8a6;
+  --medical-light: #f0fdfa;
+
+  /* Medicine experience */
+  --medicine-page-bg: #f5fcfb;
+  --medicine-hero-start: #eefaf8;
+  --medicine-hero-end: #f8fdfc;
+  --medicine-surface: #ffffff;
+  --medicine-surface-soft: #f4fbfa;
+  --medicine-surface-accent: #e6f7f7;
+  --medicine-primary: #14b8a6;
+  --medicine-primary-hover: #119a8a;
+  --medicine-primary-dark: #0e7c6e;
+  --medicine-primary-ink: #084036;
+  --medicine-text: #0b4040;
+  --medicine-text-soft: #1e4a4a;
+  --medicine-text-muted: #5e8e8e;
+  --medicine-text-faint: #8eb0b0;
+  --medicine-border: #d4e8e8;
+  --medicine-border-strong: #c2dfdf;
+  --medicine-primary-soft: rgba(20, 184, 166, 0.1);
+  --medicine-blue: #0ea5e9;
+  --medicine-blue-soft: rgba(14, 165, 233, 0.1);
+  --medicine-orange: #f97316;
+  --medicine-orange-soft: rgba(249, 115, 22, 0.1);
+  --medicine-success: #00af54;
+  --medicine-success-soft: #f0fdf4;
+  --medicine-warning: #f59e0b;
+  --medicine-warning-soft: #fffbeb;
+  --medicine-danger: #ef4444;
+  --medicine-danger-soft: #fef2f2;
+  --medicine-shadow-sm: 0px 2px 10px rgba(8, 64, 54, 0.06);
+  --medicine-shadow-md: 0px 10px 30px rgba(8, 64, 54, 0.08);
+  --medicine-shadow-lg: 0px 16px 40px rgba(8, 64, 54, 0.12);
+  --medicine-ring: 0 0 0 3px rgba(20, 184, 166, 0.12);
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: var(--medical-light);
+}
+
+html { scroll-behavior: smooth; }
+button, a, [role="button"] { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+
+.medora-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0.75rem;
+  background: rgb(2 6 23 / 0.52);
+  backdrop-filter: blur(6px);
+}
+
+.medora-modal-overlay--article { z-index: 70; }
+.medora-modal-overlay--elevated { z-index: 95; }
+.medora-modal-overlay--sheet { z-index: 120; }
+.medora-modal-overlay--top { z-index: 10000; }
+.medora-modal-overlay--booking { z-index: 1001; }
+.medora-modal-overlay--center { align-items: center; }
+
+.medora-modal-panel {
+  display: flex;
+  width: min(calc(100vw - 1.5rem), 32.5rem);
+  max-height: min(720px, calc(100dvh - 32px));
+  min-height: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #d9ece9;
+  border-radius: 1.25rem 1.25rem 0 0;
+  background: white;
+  box-shadow: 0 -18px 55px rgb(8 64 54 / 0.22);
+}
+
+.medora-modal-panel--sm { width: min(calc(100vw - 1.5rem), 26rem); }
+.medora-modal-panel--md { width: min(calc(100vw - 1.5rem), 32.5rem); }
+.medora-modal-panel--lg { width: min(calc(100vw - 1.5rem), 42.5rem); }
+.medora-map-picker-panel { width: min(calc(100vw - 1.5rem), 48rem); }
+
+.medora-map-picker-panel .leaflet-container {
+  min-height: 300px;
+  background: #e6f7f7;
+  font-family: 'Cairo', sans-serif;
+}
+
+.medora-map-marker {
+  position: relative;
+}
+
+.medora-map-marker span {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  display: block;
+  width: 1.8rem;
+  height: 1.8rem;
+  transform: translateX(-50%) rotate(45deg);
+  border: 3px solid #ffffff;
+  border-radius: 50% 50% 50% 0;
+  background: #14b8a6;
+  box-shadow: 0 12px 24px rgb(8 64 54 / 0.25);
+}
+
+.medora-map-marker span::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0.55rem;
+  height: 0.55rem;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  background: #ffffff;
+}
+
+.medora-modal-header {
+  flex-shrink: 0;
+  border-bottom: 1px solid #e4eeee;
+  background: linear-gradient(90deg, #ffffff 0%, #f1fbfa 100%);
+  padding: 0.875rem 1rem;
+}
+
+.medora-modal-body {
+  min-height: 0;
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #b8d8d5 transparent;
+}
+
+.medora-modal-footer {
+  flex-shrink: 0;
+  border-top: 1px solid #e4eeee;
+  background: white;
+  padding: 0.75rem 1rem;
+}
+
+.medora-modal-panel--booking form {
+  min-height: 0;
+  overflow: hidden;
+}
+
+@media (max-width: 639px) {
+  .medora-modal-overlay--booking {
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .medora-modal-panel--booking {
+    height: calc(100dvh - 1rem);
+    max-height: calc(100dvh - 1rem);
+    border-radius: 1rem;
+  }
+
+  .medora-modal-panel--booking .medora-modal-body {
+    padding: 0.875rem 1rem;
+  }
+
+  .medora-modal-panel--booking .medora-modal-footer {
+    padding: 0.625rem 1rem calc(0.625rem + env(safe-area-inset-bottom));
+  }
+}
+
+.medora-field {
+  height: 2.375rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid #d7e7e5;
+  background: white;
+  padding: 0 0.75rem;
+  font-size: 0.75rem;
+  color: #123f42;
+  outline: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.medora-field:focus {
+  border-color: #14b8a6;
+  box-shadow: 0 0 0 3px rgb(20 184 166 / 0.14);
+}
+
+.medora-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  text-align: start;
+}
+
+.medora-label-text {
+  font-size: 0.6875rem;
+  font-weight: 800;
+  color: #486466;
+}
+
+@media (min-width: 640px) {
+  .medora-modal-overlay {
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .medora-modal-panel {
+    border-radius: 1.25rem;
+    box-shadow: 0 24px 80px rgb(8 64 54 / 0.22);
+  }
+
+  .medora-modal-header,
+  .medora-modal-body,
+  .medora-modal-footer {
+    padding-inline: 1.25rem;
+  }
+}
+
+.medora-image-preview-trigger {
+  cursor: zoom-in;
+}
+
+.image-preview-control {
+  display: inline-flex;
+  height: 2.25rem;
+  width: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  color: white;
+  transition: background-color 150ms ease, opacity 150ms ease, transform 150ms ease;
+}
+
+.image-preview-control:hover {
+  background-color: rgb(255 255 255 / 0.14);
+}
+
+.image-preview-control:active {
+  transform: scale(0.94);
+}
+
+.image-preview-control:disabled {
+  opacity: 0.35;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 300ms ease forwards;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
